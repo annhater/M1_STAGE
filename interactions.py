@@ -12,8 +12,7 @@ rootdir = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/interactions/'
 os.chdir(rootdir)
 
 #FUNCTIONS
-#add a line to check
-
+#check to see the change on github
 # a. Open interactions file
 def find_asp_int(interactions_file):
     interactions_df = pd.read_csv(interactions_file)

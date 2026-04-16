@@ -26,4 +26,3 @@ The present codes allow calculating the following metrics needed to study PR2 in
 Additional codes to look up interactions and compare conformation frequencies:
   - <code>interactions.py</code>
   - <code>conf_freq.py</code>
-# M1_STAGE
