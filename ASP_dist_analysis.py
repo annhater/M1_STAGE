@@ -1,4 +1,4 @@
-#Code for calculating d_25 distance throughout the MD simulation run
+# Code for calculating d_25 distance throughout the MD simulation run
 # we want to extract interactions of Asp25(chain B, i.e. 124) OD2
 # with Asp25(chain A) OD1 and OD2 & calculate the distances/change throughout the MD run
 # use MDAnalysis for distance calc

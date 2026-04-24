@@ -6,6 +6,8 @@
 #IMPORTS
 import os
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 #SETUP
 rootdir = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/interactions/'
@@ -28,59 +30,81 @@ def analyze_asp_hbonds(interactions_file):
     # Filter columns for H-bonds involving Asp 25/124 and near residues
     hb_cols = [col for col in df.columns if 'hb' in col and any(resid in col for resid in resid_list)]
         
-    results = []
+    sim_data = {}
     for col in hb_cols:
         # Calculate frequency: % of frames where the bond exists (val > 0)
         frequency = (df[col] > 0).sum() / n_frames * 100
-        if frequency > 5.0: # Only care about bonds present > 1% of time
-            results.append({'Interaction': col, 'Frequency': frequency})
-    
-    # Return as a DataFrame sorted by importance
-    return pd.DataFrame(results).sort_values(by='Frequency', ascending=False)
-
-
-
+        sim_data[col] = frequency
+        
+    return sim_data
 
 #MAIN
+"""
+concat_df = pd.concat(interactions_db)
 
-# Run for different files to compare
+lengths = [1001, 1001, 1001, 1001, 501, 501]
+labels  = ['V1', 'V11', 'V12', 'V7', 'V8', 'V21']
 
-#print("\nV11 (Unstable UP) H-bonds:")
-#print(analyze_asp_hbonds('res_V11.csv'))
+concat_df['simulation'] = ''
 
-#print("\nV8 (Stable MP) H-bonds:")
-#print(analyze_asp_hbonds('res_V8.csv'))
+start = 0
+for L, lab in zip(lengths, labels):
+    end = start + L
+    concat_df.iloc[start:end, concat_df.columns.get_loc('simulation')] = lab
+    start = end
 
-#print("\nV7 (Stable MP) H-bonds:")
-#print(analyze_asp_hbonds('res_V7.csv'))
+freq_table = pd.DataFrame()
 
-#print("V12 (Stable UP) H-bonds:")
-#print(analyze_asp_hbonds('res_V12.csv'))
+concat_df = concat_df.set_index('simulation', append=False)   # or append=True to keep original integer index
+freq_table['hbss_ASP_124_OD2_ASP_25_OD1'] = concat_df['hbss_ASP_124_OD2_ASP_25_OD1'].groupby('simulation').sum()
+freq_table['hbss_ASP_124_OD2_ASP_25_OD2'] = concat_df['hbss_ASP_124_OD2_ASP_25_OD2'].groupby('simulation').sum()
+freq_table['hbsb_ASP_25_OD1_GLY_126_N'] = concat_df['hbsb_ASP_25_OD1_GLY_126_N'].groupby('simulation').sum()
+freq_table['hbsb_ASP_25_OD2_GLY_126_N'] =  concat_df['hbsb_ASP_25_OD2_GLY_126_N'].groupby('simulation').sum()
+freq_table['hbsb_ASP_25_OD1_THR_125_N'] = concat_df['hbsb_ASP_25_OD1_THR_125_N'].groupby('simulation').sum()
+freq_table['hbsb_ASP_25_OD2_THR_125_N'] = concat_df['hbsb_ASP_25_OD2_THR_125_N'].groupby('simulation').sum()
+freq_table['hbsb_THR_125_O_THR_26_OG1'] = concat_df['hbsb_THR_125_O_THR_26_OG1'].groupby('simulation').sum()
+freq_table['hbsb_THR_125_OG1_THR_26_N'] = concat_df['hbsb_THR_125_OG1_THR_26_N'].groupby('simulation').sum()
+ """
 
-#print("\nV21 (Stable MP) H-bonds:")
-#print(analyze_asp_hbonds('res_V21.csv'))
 
-#print("\nV1 (Stable MP) H-bonds:")
-#analyze_asp_hbonds('res_V1.csv')
+interaction_files = ['res_V1.csv', 'res_V11.csv', 'res_V12.csv', 'res_V7.csv', 'res_V8.csv', 'res_V21.csv']
+simulation_names = ['V1', 'V11', 'V12', 'V7', 'V8', 'V21']
+all_results = []
 
+for sim_file in interaction_files:
+    data = analyze_asp_hbonds(sim_file)
+    all_results.append(data)
+freq_table = pd.DataFrame(all_results)
 
+freq_table.index = simulation_names
+freq_table
 
-# Or make it automatic
+lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
+freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
 
-# 1. fetch all interaction files
-#store all file paths
-simulations_list = ['res_V1.csv', 'res_V11.csv', 'res_V12.csv', 'res_V21.csv', 'res_V7.csv', 'res_V8.csv']
-interactions_files_paths = []
+# Only keep interactions that occur in at least 10% of frames in at least one simulation
+filtered_cols = freq_percent.columns[(freq_percent > 10).any()]
+freq_percent_filtered = freq_percent[filtered_cols]
 
-# 2. iterate on each file
-for root, dirs, files in os.walk(rootdir):
-    for name in files:
-        if name in simulations_list:
-            interactions_files_paths.append(os.path.join(rootdir, name))
+lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
+freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
 
-# 3. use function and print the result
-for i, interactions_file in enumerate(interactions_files_paths):
-    # get simulation name from filename
-    simulation_name = os.path.basename(os.path.normpath(interactions_file)).replace("res_", "").replace(".csv", "")
-    print(f"Simulation: {simulation_name}")
-    analyze_asp_hbonds(interactions_file)
+fig = plt.figure(figsize=(16, 16))
+sns.heatmap(freq_percent_filtered, 
+            #annot=True,       # Shows the % values in the boxes
+            #fmt=".1f",        # 1 decimal point
+            cmap="RdYlGn",
+            square=True,
+            cbar=True,
+            #linewidths=0.3)
+            )
+#ax.set_aspect(freq_percent.shape[1] / freq_percent.shape[0])
+plt.title("Hydrogen Bond Frequency", fontsize=16)
+plt.ylabel("Simulation")
+plt.xlabel("Interaction Type")
+plt.xticks(rotation=45, ha='right', fontsize=8)
+plt.tight_layout()
+
+plt.show()
+#save plot
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/interactions_heatmap.png", bbox_inches='tight', dpi=300)

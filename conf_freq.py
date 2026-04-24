@@ -24,9 +24,9 @@ def cal_d_50 (distance_df):
     return d_50
 
 # b. d_50_179 calculation
-def cal_d_50_179(distance_df):
-    d_50_179 = distance_df["50_179"]
-    return d_50_179
+def cal_d_51_179(distance_df):
+    d_51_179 = distance_df["51_179"]
+    return d_51_179
 
 phase_limit_dico = {
     'V7': 198,
@@ -73,16 +73,16 @@ for i, distance_file in enumerate(distance_files_paths):
 
     # 2.3. compute d_50-50 & d_50-179 for each distance file
     stable_phase_df['d_50-50'] = cal_d_50(stable_phase_df)
-    stable_phase_df['d_50-179'] = cal_d_50_179(stable_phase_df)
+    stable_phase_df['d_51-179'] = cal_d_51_179(stable_phase_df)
 
     # 2.4. Update df to contain only d_50-50 & d_50-179 columns
     stable_phase_df = stable_phase_df.iloc[:, -2:]
     
     # 2.5. Define different conformations conditions
     conditions = [
-    (stable_phase_df['d_50-50'] >= 7) & (stable_phase_df['d_50-179'] >= 4.8),
-    (stable_phase_df['d_50-50'] < 7) & (stable_phase_df['d_50-179'] >= 4.8),
-    (stable_phase_df['d_50-50'] < 7) & (stable_phase_df['d_50-179'] < 4.8)
+    (stable_phase_df['d_50-50'] >= 7) & (stable_phase_df['d_51-179'] >= 4.8),
+    (stable_phase_df['d_50-50'] < 7) & (stable_phase_df['d_51-179'] >= 4.8),
+    (stable_phase_df['d_50-50'] < 7) & (stable_phase_df['d_51-179'] < 4.8)
         
     ]
     values = ['extended', 'bent', 'bent-inward']
@@ -159,13 +159,13 @@ for i, distance_file in enumerate(distance_files_paths):
     # 5.4. Use defined functions for calculations (like previously for freq)
     df = pd.read_csv(distance_file) * 10
     df['d_50-50'] = cal_d_50(df)
-    df['d_50-179'] = cal_d_50_179(df)
+    df['d_51-179'] = cal_d_51_179(df)
     
     # 5.3. Define Conformations
     conditions = [
-        (df['d_50-50'] >= 7) & (df['d_50-179'] >= 4.8),
-        (df['d_50-50'] < 7) & (df['d_50-179'] >= 4.8),
-        (df['d_50-50'] < 7) & (df['d_50-179'] < 4.8)
+        (df['d_50-50'] >= 7) & (df['d_51-179'] >= 4.8),
+        (df['d_50-50'] < 7) & (df['d_51-179'] >= 4.8),
+        (df['d_50-50'] < 7) & (df['d_51-179'] < 4.8)
     ]
     values = ['extended', 'bent', 'bent-inward']
     df['conformation'] = np.select(conditions, values, default='extended')
