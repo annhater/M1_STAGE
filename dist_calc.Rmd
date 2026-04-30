@@ -1,0 +1,129 @@
+---
+title: "dist_calc"
+author: "anna.perova"
+date: "2026-04-27"
+output: pdf_document
+---
+
+<!--###  Phase-dependent changes in relative flap positioning revealed by projection analysis -->
+<!--## Relative Orientation of Flaps in the two conformational Phases -->
+<!-- projection de B sur le plan de A -->
+
+## SETUP
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## IMPORT
+
+```{libraries}
+library(bio3d)
+```
+
+## FUNCTIONS
+
+```{r}
+# 1. 
+get_dist <- function(pdbFile_nm, resno1, ch1, resno2, ch2){
+  pdbFile <- read.pdb(pdbFile_nm)
+  ca_index.res1 <- atom.select(pdbFile, "calpha",
+                                resno = resno1 , chain = ch1)
+  coord.res1 <- pdbFile$xyz[, ca_index.res1$xyz]
+
+  ca_index.res2 <- atom.select(pdbFile, "calpha",
+                                resno = resno2 , chain = ch2)
+  coord.res2 <- pdbFile$xyz[, ca_index.res2$xyz]
+  abs.dist <- sum(coord.res1-coord.res2)
+  return(abs.dist)
+}
+# 2. 
+get.triFrame <- function(list_pdb, pattern){
+  #pattern <- "AMBER_dt1000"
+  tmp <- unlist(strsplit(list_pdb, pattern))
+  tmp2 <- tmp[seq(2, length(tmp), by=2)]
+  tmp3 <- unlist(strsplit(tmp2, "_ch"))
+  num.sim <- as.numeric(tmp3[seq(1,length(tmp3), by=2)])
+  names(num.sim) <- list_pdb
+  list_pdb.s <- names(sort(num.sim))
+  return(list_pdb.s)
+}
+# 3.
+get_distAllFrame <- function(path_dir, pattern, res1, ch1, res2, ch2){
+  list_pdb <- list.files(path_dir)
+  list_pdb.s <- get.triFrame(list_pdb, pattern)
+ 
+  list.dist <- rep(NA, times=length(list_pdb.s))
+  names(list.dist) <- list_pdb.s
+
+
+  for(pdbNm in list_pdb.s){
+     pdbFile_nm <- paste(path_dir,pdbNm,sep="/")
+     list.dist[pdbNm] <- get_dist(pdbFile_nm, res1, ch1, res2, ch2)
+  }
+ 
+  return(list.dist)
+}
+ 
+# 4.
+get_project <- function(pdbFile_nm, residues_A, chain1, residue_B, chain2){
+#pdb <- pdbFile
+#residues_A <- c(49, 50, 51)
+ 
+  pdb <- read.pdb(pdbFile_nm)
+coords_A <- pdb$atom[pdb$atom$resno %in% residues_A & pdb$atom$elety == "CA" & pdb$atom$chain == chain1, c("x", "y", "z")]
+
+# Extraire les coordonnées du Calpha du résidu 50 de la chaîne B
+coords_B <- pdb$atom[pdb$atom$resno == residue_B & pdb$atom$elety == "CA" & pdb$atom$chain == chain2, c("x", "y", "z")]
+
+# Convertir en matrices/vecteurs
+p1 <- as.numeric(coords_A[1, ])  # Calpha du résidu 49 (chaîne A)
+p2 <- as.numeric(coords_A[2, ])  # Calpha du résidu 50 (chaîne A)
+p3 <- as.numeric(coords_A[3, ])  # Calpha du résidu 51 (chaîne A)
+p  <- as.numeric(coords_B[1, ])  # Calpha du résidu 50 (chaîne B)
+
+# Calculer le vecteur normal au plan défini par p1, p2 et p3
+v1 <- p2 - p1
+v2 <- p3 - p1
+normal <- c(
+  v1[2] * v2[3] - v1[3] * v2[2],
+  v1[3] * v2[1] - v1[1] * v2[3],
+  v1[1] * v2[2] - v1[2] * v2[1]
+)  # Produit vectoriel
+
+normal <- normal / sqrt(sum(normal^2))  # Normalisation du vecteur normal
+
+# Calculer la distance signée entre le point p et le plan (projection orientée)
+distance_signee <- sum((p - p1) * normal)  
+
+# Résultat
+return(distance_signee)
+}
+
+# 4.
+
+get_projectAllF <- function(path_dir, pattern, residues_A, ch1, resB, ch2){
+  list_pdb <- list.files(path_dir)
+  list_pdb.s <- get.triFrame(list_pdb, pattern)
+ 
+  list.proj <- rep(NA, times=length(list_pdb.s))
+  names(list.proj) <- list_pdb.s
+
+  for(pdbNm in list_pdb.s){
+     pdbFile_nm <- paste(path_dir,pdbNm,sep="/")
+     list.proj[pdbNm] <- get_project(pdbFile_nm,
+                                     residues_A, ch1, resB, ch2)
+  }
+ 
+  return(list.proj)
+}
+```
+
+
+## MAIN
+
+```{r main, echo=FALSE}
+path_dir <- "../Data/simulations_1HSI/simulations_1HSI_APO_MP/V7_clean"
+list.proj.V7 <- get_projectAllF(path_dir, "AMBER_dt1000", c(49,50, 51), "A", 50, "B")
+save(list.proj.V7, file="../DATA/list.proj.V7.Rdata")
+```
