@@ -79,15 +79,15 @@ freq_table = pd.DataFrame(all_results)
 freq_table.index = simulation_names
 freq_table
 
-lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
-freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
+#lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
+#freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
 
-# Only keep interactions that occur in at least 10% of frames in at least one simulation
-filtered_cols = freq_percent.columns[(freq_percent > 10).any()]
-freq_percent_filtered = freq_percent[filtered_cols]
+# Only keep interactions that occur in at least 25% of frames in at least one simulation
+filtered_cols = freq_table.columns[(freq_table > 25).any()]
+freq_percent_filtered = freq_table[filtered_cols]
 
-lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
-freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
+#lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
+#freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
 
 fig = plt.figure(figsize=(16, 16))
 sns.heatmap(freq_percent_filtered, 

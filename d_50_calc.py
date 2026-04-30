@@ -198,4 +198,3 @@ summary_stats_df = pd.DataFrame(summary_stats_dict)
 
 # Write csv
 summary_stats_df.to_csv('/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Tables/d_50_stats.csv', index=True, header=True, decimal=".", float_format="%.3f")
-
