@@ -1,3 +1,7 @@
+# This R code allows to plot arc graph
+
+# Created by: Anna Perova
+
 # install devtools
 install.packages("devtools")
 

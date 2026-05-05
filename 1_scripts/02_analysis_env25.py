@@ -1,6 +1,7 @@
 # This code analyses the environment around CA (within 5A) with MDAnslysis,
 # and creates tables with frequency of appearance of one atom within 5A throughout the simulation. 
 
+# Created by: Anna Perova
 
 #IMPORTS
 import os

@@ -1,3 +1,9 @@
+# This code calculates the metrics, such as RMSD (of tips and flaps)
+# between experimental structures (bent_45, extend_380, inward_bent_219) and 1HSI MD simulations
+# using MDAnalysis
+
+# Created by: Anna Perova
+
 #IMPORTS
 import os
 import MDAnalysis as mda
@@ -141,15 +147,3 @@ for pdb in cond2_files:
         rmsd_tips_dico[exp_file] = RMSD_tips(pdb, exp_file)
     #print(rmsd_tips_dico)
 
-""" 
-# 2.2. RMSD for c1
-for pdb in cond1_files:
-    resids, rmsd = avg_rmsd(gro, xtc)
-    all_resids_c1.append(resids)
-    all_rmsd_c1.append(rmsd)
-
-# 2.3. RMSD for c2
-for gro, xtc in cond2_files:
-    resids, rmsd = avg_rmsd(gro, xtc)
-    all_resids_c2.append(resids)
-    all_rmsd_c2.append(rmsd) """

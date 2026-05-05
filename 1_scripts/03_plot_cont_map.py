@@ -1,13 +1,14 @@
+# This code allows to plot residue contacts map during MD simulation run 
+
+# Created by: Anna Perova
+
+
 import numpy
 import numpy.linalg
 import MDAnalysis
 import MDAnalysis.core.distances
 from numpy import *
-#------------------------------------------------------------------------------------#
-# Contact Analysis between two selections,
-# 0 to 1 (0=never below threshold, 1=always above threshold)
-# by M.E. Pitman
-#------------------------------------------------------------------------------------#
+
 
 #load trajectory
 u = MDAnalysis.Universe("simulations_1HSI_APO_MP/V7/V7.gro", "simulations_1HSI_APO_MP/V7/md_V7.xtc")

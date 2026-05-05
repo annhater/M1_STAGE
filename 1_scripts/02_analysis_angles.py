@@ -260,8 +260,8 @@ for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all
     ax.set_title(f"{current_sim_name}")
     cbar = fig.colorbar(sc, ax=ax) # Create colorbar using the PathCollection and attach to current axes
     cbar.set_label("Frame")
-    ax.set_xlabel(r"$\chi$ Angle [radians]")
-    ax.set_ylabel(r"$\chi$ Angle [radians]")
+    ax.set_xlabel(r"$\chi$1 Angle [radians]")
+    ax.set_ylabel(r"$\chi$2 Angle [radians]")
     ax.grid(True, alpha=0.3)
     ax.set_xlim(lim_x0-0.5, lim_x1+0.5)
     ax.set_ylim(lim_y0-0.5, lim_y1+0.5)
@@ -333,8 +333,8 @@ for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all
     ax.set_title(f"{current_sim_name}")
     cbar = fig.colorbar(sc, ax=ax) # Create colorbar using the PathCollection and attach to current axes
     cbar.set_label("Frame")
-    ax.set_xlabel(r"$\chi$ Angle [radians]")
-    ax.set_ylabel(r"$\chi$ Angle [radians]")
+    ax.set_xlabel(r"$\chi$1 Angle [radians]")
+    ax.set_ylabel(r"$\chi$2 Angle [radians]")
     ax.grid(True, alpha=0.3)
     ax.set_xlim(lim_x0-0.5, lim_x1+0.5)
     ax.set_ylim(lim_y0-0.5, lim_y1+0.5)

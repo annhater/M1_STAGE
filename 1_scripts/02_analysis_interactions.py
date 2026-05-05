@@ -2,6 +2,7 @@
 # Specifically around ASP_25 (chain A) or ASP_124 (chain B), plus nearby residues
 # Goal: see the differences in interactions of two conditions Monoprotonated (MP) and Unprotoated (DP) 
 
+# Created by: Anna Perova
 
 #IMPORTS
 import os
