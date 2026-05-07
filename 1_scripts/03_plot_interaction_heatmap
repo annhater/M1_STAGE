@@ -12,7 +12,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 #SETUP
-rootdir = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/interactions/'
+rootdir = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Tables/'
 os.chdir(rootdir)
 
 #MAIN
@@ -29,14 +29,14 @@ residue_dico = {}
 residue_identifier_set_all_sims = set()
 
 # 1.1. Open frequency tables, read as df
-freq_df_paths = ["V1_ASP_env_atoms_frequency.csv",
-                "V11_ASP_env_atoms_frequency.csv",
-                "V12_ASP_env_atoms_frequency.csv",
-                "V7_ASP_env_atoms_frequency.csv",
-                "V8_ASP_env_atoms_frequency.csv",
-                "V21_ASP_env_atoms_frequency.csv"]
+freq_df_paths = ["V1_ASP_chB_env_atoms_frequency.csv",
+                "V11_ASP_chB_env_atoms_frequency.csv",
+                "V12_ASP_chB_env_atoms_frequency.csv",
+                "V7_ASP_chB_env_atoms_frequency.csv",
+                "V8_ASP_chB_env_atoms_frequency.csv",
+                "V21_ASP_chB_env_atoms_frequency.csv"]
 for sim in freq_df_paths:
-    sim_name = sim.replace("_ASP_env_atoms_frequency.csv", "")
+    sim_name = sim.replace("_ASP_chB_env_atoms_frequency.csv", "")
     df_sim = pd.read_csv(sim)
     
     # 1.2. Filter only alpha carbons (and that are not Asp25 alpha carbon)
@@ -76,7 +76,7 @@ for sim in freq_df_paths:
 
 #2. Create heatmap
 
-fig = plt.figure(figsize=(16, 16))
+fig = plt.figure(figsize=(20, 15))
 sns.heatmap(freq_percent_filtered, 
             #annot=True,       # Shows the % values in the boxes
             #fmt=".1f",        # 1 decimal point
@@ -86,7 +86,7 @@ sns.heatmap(freq_percent_filtered,
             #linewidths=0.3)
             )
 #ax.set_aspect(freq_percent.shape[1] / freq_percent.shape[0])
-plt.title("Frequency of interactions with Asp25", fontsize=16)
+plt.title("Frequency of interactions with Asp25 (chain B)", fontsize=16)
 plt.ylabel("Simulation")
 plt.xlabel("Residue (within 5A)")
 plt.xticks(rotation=45, ha='right', fontsize=8)
@@ -94,5 +94,5 @@ plt.tight_layout()
 
 plt.show()
 #save plot
-#fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/env25_heatmap.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/env25_chB_heatmap.png", bbox_inches='tight', dpi=300)
 

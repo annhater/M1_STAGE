@@ -9,6 +9,7 @@ import os
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+import re
 
 #SETUP
 rootdir = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/interactions/'
@@ -39,34 +40,12 @@ def analyze_asp_hbonds(interactions_file):
         
     return sim_data
 
+# Function to extract the first residue number from your interaction string
+def get_res_num(interaction_string):
+    # Extracts the first number found in the string
+    return int(re.search(r'\d+', interaction_string).group())
+
 #MAIN
-"""
-concat_df = pd.concat(interactions_db)
-
-lengths = [1001, 1001, 1001, 1001, 501, 501]
-labels  = ['V1', 'V11', 'V12', 'V7', 'V8', 'V21']
-
-concat_df['simulation'] = ''
-
-start = 0
-for L, lab in zip(lengths, labels):
-    end = start + L
-    concat_df.iloc[start:end, concat_df.columns.get_loc('simulation')] = lab
-    start = end
-
-freq_table = pd.DataFrame()
-
-concat_df = concat_df.set_index('simulation', append=False)   # or append=True to keep original integer index
-freq_table['hbss_ASP_124_OD2_ASP_25_OD1'] = concat_df['hbss_ASP_124_OD2_ASP_25_OD1'].groupby('simulation').sum()
-freq_table['hbss_ASP_124_OD2_ASP_25_OD2'] = concat_df['hbss_ASP_124_OD2_ASP_25_OD2'].groupby('simulation').sum()
-freq_table['hbsb_ASP_25_OD1_GLY_126_N'] = concat_df['hbsb_ASP_25_OD1_GLY_126_N'].groupby('simulation').sum()
-freq_table['hbsb_ASP_25_OD2_GLY_126_N'] =  concat_df['hbsb_ASP_25_OD2_GLY_126_N'].groupby('simulation').sum()
-freq_table['hbsb_ASP_25_OD1_THR_125_N'] = concat_df['hbsb_ASP_25_OD1_THR_125_N'].groupby('simulation').sum()
-freq_table['hbsb_ASP_25_OD2_THR_125_N'] = concat_df['hbsb_ASP_25_OD2_THR_125_N'].groupby('simulation').sum()
-freq_table['hbsb_THR_125_O_THR_26_OG1'] = concat_df['hbsb_THR_125_O_THR_26_OG1'].groupby('simulation').sum()
-freq_table['hbsb_THR_125_OG1_THR_26_N'] = concat_df['hbsb_THR_125_OG1_THR_26_N'].groupby('simulation').sum()
- """
-
 
 interaction_files = ['res_V1.csv', 'res_V11.csv', 'res_V12.csv', 'res_V7.csv', 'res_V8.csv', 'res_V21.csv']
 simulation_names = ['V1', 'V11', 'V12', 'V7', 'V8', 'V21']
@@ -90,22 +69,38 @@ freq_percent_filtered = freq_table[filtered_cols]
 #lengths_dico = {'V1': 1001, 'V11': 1001, 'V12': 1001, 'V7': 1001, 'V8': 501, 'V21': 501}
 #freq_percent = freq_table.div(freq_table.index.map(lengths_dico), axis=0) * 100
 
-fig = plt.figure(figsize=(16, 16))
-sns.heatmap(freq_percent_filtered, 
+descriptive_labels = []
+for bond in freq_percent_filtered.columns:
+    parts = bond.split('_')
+    res1 = f"{parts[1]:<3}{parts[2]:>3}_{parts[3]:<3}" 
+    res2 = f"{parts[4]:<3}{parts[5]:>3}_{parts[6]:<3}"
+    descriptive_labels.append(f"{res2} - {res1}")
+
+for col_name, label in zip(freq_percent_filtered.columns,descriptive_labels):
+    freq_percent_filtered = freq_percent_filtered.rename(columns={col_name:label})
+
+sorted_cols = sorted(freq_percent_filtered.columns, key=get_res_num)
+df_sorted = freq_percent_filtered[sorted_cols]
+
+#freq_percent_filtered = sorted(freq_percent_filtered.T)
+freq_percent_filtered = freq_percent_filtered.reindex(columns=sorted(freq_percent_filtered.columns))
+fig = plt.figure(figsize=(16,16))
+sns.heatmap(df_sorted.T, 
             #annot=True,       # Shows the % values in the boxes
             #fmt=".1f",        # 1 decimal point
-            cmap="RdYlGn",
+            cmap="Blues",
             square=True,
             cbar=True,
             #linewidths=0.3)
             )
 #ax.set_aspect(freq_percent.shape[1] / freq_percent.shape[0])
 plt.title("Hydrogen Bond Frequency", fontsize=16)
-plt.ylabel("Simulation")
-plt.xlabel("Interaction Type")
-plt.xticks(rotation=45, ha='right', fontsize=8)
+plt.xlabel("Simulation")
+plt.ylabel("Interaction Type")
+plt.yticks(family='monospace', fontsize=10)
+plt.xticks(family='monospace', rotation=45, ha='right', fontsize=8)
 plt.tight_layout()
 
 plt.show()
 #save plot
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/interactions_heatmap.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/interactions_heatmap_2.png", bbox_inches='tight', dpi=300)
