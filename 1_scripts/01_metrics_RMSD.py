@@ -13,6 +13,7 @@ import MDAnalysis as mda
 from MDAnalysis.analysis import rms, align
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as df
 
 # SETUP
 # set working dir
@@ -298,3 +299,40 @@ plt.grid(True)
 plt.show()
 fig.savefig("rmsd.png")
 """
+
+# 12/05/2026
+# Extracting RMSD of selected transtition states
+
+#Test with V12 and V7
+selected_frames_dico = {'V1' : range(412,587+1),
+                        'V12': range(0, 175+1),
+                        'V7': range(75,250+1),
+                        'V8' : range(62,237+1),
+                        'V21' : range(62,237+1),
+                        'V11' : range(698,873+1),
+                        }
+
+rmsd_df = pd.DataFrame()
+
+for i in range(len(all_rmsd_c1)):
+    sim_dir_name = os.path.basename(os.path.dirname(cond1_files[i][0]))
+    print(sim_dir_name)
+    # R.results.rmsd columns: [frame, time, RMSD_total, RMSD_group1, RMSD_group2]
+    if sim_dir_name in selected_frames_dico:
+        time_frame = selected_frames_dico[sim_dir_name]
+        print(time_frame)
+    rmsd_df[f"{sim_dir_name}_frames"] = all_rmsd_c1[i][time_frame, 0] # Extract time
+    rmsd_df[f"{sim_dir_name}_RMSD"] = all_rmsd_c1[i][time_frame, 2] # RMSD for all
+
+for i in range(len(all_rmsd_c2)):
+    sim_dir_name = os.path.basename(os.path.dirname(cond2_files[i][0]))
+    print(sim_dir_name)
+    # R.results.rmsd columns: [frame, time, RMSD_total, RMSD_group1, RMSD_group2]
+    if sim_dir_name in selected_frames_dico:
+        time_frame = selected_frames_dico[sim_dir_name]
+    rmsd_df[f"{sim_dir_name}_frames"] = all_rmsd_c2[i][time_frame, 0] # Extract time
+    rmsd_df[f"{sim_dir_name}_RMSD"] = all_rmsd_c2[i][time_frame, 2] # RMSD for all
+
+print(rmsd_df)
+rmsd_df.to_csv('/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Tables/trans_st_RMSD.csv', index=True, header=True, decimal=".", float_format="%.3f")
+
