@@ -35,8 +35,8 @@ def find_hbonds(df):
 interaction_files = ['res_V12.csv', 'res_V7.csv']
 simulation_names = ['V12', 'V7']
 
-selected_frames_dico = {'V7': range(75,250+1),
-                    'V12': range(0, 175+1)}
+selected_frames_dico = {'V7': range(162,234+1),
+                    'V12': range(0, 72+1)}
 
 phase_limit_dico = {
     'V7': 198,
