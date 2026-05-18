@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?><svg viewBox="258 180 250 297"
+    version="1.1" xmlns="http://www.w3.org/2000/svg" >
+<g fill="none" stroke-linecap="square" font-style="normal" >
+<g font-family="Sans Serif" font-size="34px"><text x="379.8687" y="462.8906" fill="#000000" >O</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="323.9806" y="281.6148" fill="#000000" >C</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="297.9806" y="281.6148" fill="#000000" >H</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="323.3703" y="353.698" fill="#000000" >C</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="283.3703" y="353.698" fill="#000000" >H<tspan baseline-shift="sub" font-size="75%">2</tspan></text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="397.9753" y="281.8842" fill="#000000" >C</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="450.2605" y="283.7593" fill="#000000" >O</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="477.2605" y="283.7593" fill="#000000" >H</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="395.9037" y="347.8913" fill="#000000" >O</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="322.7992" y="218.8186" fill="#000000" >N</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="347.7992" y="218.8186" fill="#000000" >H<tspan baseline-shift="sub" font-size="75%">2</tspan></text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="324.132" y="415.0885" fill="#000000" >C</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="290.7314" y="459.8674" fill="#000000" >O</text></g>
+<g font-family="Sans Serif" font-size="34px"><text x="264.7314" y="459.8674" fill="#000000" >H</text></g>
+<line x1="322.132" y1="423.2403" x2="317.4108" y2="429.8674" stroke-width="3.4348" stroke="#000000" />
+<line x1="423.9753" y1="270.8723" x2="448.2605" y2="271.7189" stroke-width="3.4348" stroke="#000000" />
+<line x1="349.9806" y1="270.1658" x2="395.9753" y2="270.3333" stroke-width="3.4348" stroke="#000000" />
+<line x1="335.6371" y1="363.698" x2="335.9024" y2="385.0885" stroke-width="3.4348" stroke="#000000" />
+<line x1="335.527" y1="323.698" x2="335.7986" y2="291.6148" stroke-width="3.4348" stroke="#000000" />
+<line x1="344.6275" y1="421.8717" x2="372.3643" y2="445.0364" stroke-width="3.4348" stroke="#000000" />
+<line x1="355.6364" y1="408.69" x2="383.3732" y2="431.8547" stroke-width="3.4348" stroke="#000000" />
+<line x1="335.7799" y1="251.6148" x2="335.5325" y2="228.8186" stroke-width="3.4348" stroke="#000000" />
+<line x1="409.7892" y1="291.8842" x2="409.5639" y2="317.8913" stroke-width="3.4348" stroke="#000000" />
+<line x1="426.9345" y1="295.2839" x2="426.7656" y2="314.7892" stroke-width="3.4348" stroke="#000000" />
+<g font-family="Sans Serif" font-size="14px"><text x="347.2868" y="286.0465" fill="#000000" >α<br/></text></g>
+<path d="M317.8284,361.6364 C319.0437,371.5566 327.498,379.239 337.7466,379.239" stroke-width="2" stroke="#000000" />
+<path d="M337.7466,379.239 C346.0298,379.239 353.1409,374.2207 356.2054,367.0584" stroke-width="2" stroke="#000000" />
+<polygon points="352.3712,372.9133 354.0776,377.6131 356.2016,367.0543 347.3816,373.2355" stroke-width="1" stroke="#000000" fill="#000000" />
+<g font-family="Sans Serif" font-size="14px"><text x="347.2868" y="421.3178" fill="#000000" >γ</text></g>
+<g font-family="Sans Serif" font-size="14px"><text x="347.2868" y="357.7519" fill="#000000" >β</text></g>
+<path d="M312.7874,297.2959 C316.2351,306.1994 324.8812,312.5129 335.0019,312.5129" stroke-width="2" stroke="#000000" />
+<path d="M335.0019,312.5129 C345.702,312.5129 354.7538,305.4558 357.7568,295.7421" stroke-width="2" stroke="#000000" />
+<polygon points="354.723,302.0472 357.031,306.4826 357.7519,295.7364 349.8187,303.021" stroke-width="1" stroke="#000000" fill="#000000" />
+</g>
+</svg>
