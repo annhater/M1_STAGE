@@ -28,7 +28,7 @@ def find_asp_int(interactions_file):
 def analyze_asp_hbonds(interactions_file):
     df = pd.read_csv(interactions_file)
     n_frames = len(df)
-    resid_list = ['23','24','25','26','27','28','123','124','125','126','128']
+    resid_list = ['23','24','25','26','27','28','122','123','124','125','126','127']
     # Filter columns for H-bonds involving Asp 25/124 and near residues
     hb_cols = [col for col in df.columns if 'hb' in col and any(resid in col for resid in resid_list)]
         
@@ -94,9 +94,9 @@ sns.heatmap(df_sorted.T,
             #linewidths=0.3)
             )
 #ax.set_aspect(freq_percent.shape[1] / freq_percent.shape[0])
-plt.title("Hydrogen Bond Frequency", fontsize=16)
+plt.title("Fréquence des liaisons hydrogènes", fontsize=16)
 plt.xlabel("Simulation")
-plt.ylabel("Interaction Type")
+plt.ylabel("Type d'interaction")
 plt.yticks(family='monospace', fontsize=10)
 plt.xticks(family='monospace', rotation=45, ha='right', fontsize=8)
 plt.tight_layout()

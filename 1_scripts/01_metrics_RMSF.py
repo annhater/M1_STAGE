@@ -104,8 +104,8 @@ for i in range(len(all_rmsf_c2)):
     plt.plot(all_resids_c2[i], all_rmsf_c2[i], color=cmap_c2(i + 1), alpha=0.7, label=f"APO_DP_{sim_dir_name}")
 
 plt.ylabel(r"RMSF ($\AA$)")
-plt.xlabel("Residue")
-plt.title("RMSF Comparison: Condition 1 (APO_MP) vs Condition 2 (APO_DP) Simulations")
+plt.xlabel("Résidue")
+plt.title("Analyse RMSF: simulations MP (V7,V8,V21) vs DP (V1,V11,V12)")
 plt.legend(loc='best')
 plt.xlim(-0.5, 200)
 plt.ylim(-0, 8.5)
@@ -151,3 +151,6 @@ summary_stats_df = pd.DataFrame(summary_stats_dict)
 
 # Write csv
 summary_stats_df.to_csv('/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/RMSF_stats.csv', index=True, header=True, decimal=".", float_format="%.3f")
+
+
+

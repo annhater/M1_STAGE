@@ -28,7 +28,9 @@ os.chdir(rootdir)
 #---------------------------------------------------------------------------------------------
 
 # 1.0.0. Define residue of interest     
-res_indx = 24 #Asp25
+res_indx = 25
+#Asp25 = 24
+#Thr26 = 25
 
 # 1.0.1. Setup (empty lists)
 all_sim_asp25_phi = []
@@ -91,7 +93,7 @@ num_rows_plot = (num_simulations + num_cols_plot - 1) // num_cols_plot
 fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
 axes = axes.flatten()
 plot_idx = 0
-fig.suptitle("Dihedral Map (Phi and Psi) of Asp25 (chain A) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+fig.suptitle("Dihedral Map (Phi and Psi) of Thr26 (chain A) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
 
 lim_x0, lim_x1 = min(min_x), max(max_x)
 lim_y0, lim_y1 = min(min_y), max(max_y)
@@ -115,15 +117,18 @@ for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all
 plt.show()
 
 # 1.4. Save plot
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Asp_25_phi_psi_angles.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Thr26_phi_psi_angles.png", bbox_inches='tight', dpi=300)
+
 
 #-------------------------------------------------------------------------------------------
 # 2. Calculations for phi and psi angles of Asp25 chain B
-#-------------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------
 
 
 # 2.0.0. Define residue of interest     
-res_indx = 123 #Asp124
+res_indx = 124 
+#Asp124 = 123
+#Thr125 = 124
 
 # 2.0.1. Setup (empty lists)
 all_sim_asp124_phi = []
@@ -166,7 +171,7 @@ num_rows_plot = (num_simulations + num_cols_plot - 1) // num_cols_plot
 fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
 axes = axes.flatten()
 plot_idx = 0
-fig.suptitle("Dihedral Map (Phi and Psi) of Asp25 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+fig.suptitle("Dihedral Map (Phi and Psi) of Thr26 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
 
 lim_x0, lim_x1 = min(min_x), max(max_x)
 lim_y0, lim_y1 = min(min_y), max(max_y)
@@ -190,7 +195,7 @@ for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all
 plt.show()
 
 # 2.4. Save plot
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Asp_124_phi_psi_angles.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Thr125_phi_psi_angles.png", bbox_inches='tight', dpi=300)
 
 #-------------------------------------------------------------------------------------------
 # 3. Calculations for chi angles of Asp25 chain B
@@ -198,8 +203,9 @@ fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Asp_124_
 
 
 # 3.0.0. Define residue of interest     
-res_indx = 123 #Asp124
-
+res_indx = 124
+#Asp124 = 123
+#Thr125 = 124
 # 3.0.1. Setup (empty lists)
 all_sim_asp124_chi1 = []
 all_sim_asp124_chi2 = []
@@ -246,7 +252,7 @@ num_rows_plot = (num_simulations + num_cols_plot - 1) // num_cols_plot
 fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
 axes = axes.flatten()
 plot_idx = 0
-fig.suptitle("Dihedral Map (Chi_1 and Chi_2) of Asp25 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+fig.suptitle("Dihedral Map (Chi_1 and Chi_2) of Thr26 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
 
 lim_x0, lim_x1 = min(min_x), max(max_x)
 lim_y0, lim_y1 = min(min_y), max(max_y)
@@ -270,8 +276,48 @@ for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all
 plt.show()
 
 # 3.4. Save plot
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Asp_124_chi1_chi2_angles.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Thr125_chi1_chi2_angles.png", bbox_inches='tight', dpi=300)
 
+# Plot Chi angles linearly over time for residues on chain B
+
+#  Prep for plot
+fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
+axes = axes.flatten()
+plot_idx = 0
+fig.suptitle("Chi_1 Graph of Thr26 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+
+#  Plot Chi1
+for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all_angles, all_n_frames)):
+    ax = axes[i] # Assign the correct Axes object for plotting
+    ax.plot(angles_data[:,0], color="cyan", linewidth = 0.5)
+    ax.set_title(f"{current_sim_name}")
+    ax.set_xlabel("Frame")
+    ax.set_ylabel("Angle [radians]")
+    ax.grid(True, alpha=0.3)
+    plot_idx += 1
+plt.show()
+
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Chi1_Thr26_chB_linear.png", bbox_inches='tight', dpi=300)
+
+#  Prep for plot 2
+fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
+axes = axes.flatten()
+plot_idx = 0
+fig.suptitle("Chi_2 Graph of Thr26 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+
+#  Plot Chi2
+
+for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all_angles, all_n_frames)):
+    ax = axes[i] # Assign the correct Axes object for plotting
+    ax.plot(angles_data[:,1], color="pink", linewidth = 0.5)
+    ax.set_title(f"{current_sim_name}")
+    ax.set_xlabel("Frame")
+    ax.set_ylabel("Angle [radians]")
+    ax.grid(True, alpha=0.3)
+    plot_idx += 1
+plt.show()
+
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Chi2_Thr26_chB_linear.png", bbox_inches='tight', dpi=300)
 
 
 #-------------------------------------------------------------------------------------------
@@ -280,8 +326,9 @@ fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Asp_124_
 
 
 # 4.0.0. Define residue of interest     
-res_indx = 24 #Asp25
-
+res_indx = 25
+#Asp25 = 24
+#Thr26 = 25
 # 4.0.1. Setup (empty lists)
 all_sim_asp25_chi1 = []
 all_sim_asp25_chi2 = []
@@ -319,7 +366,7 @@ for pdb, xtc in simulation_files:
 fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
 axes = axes.flatten()
 plot_idx = 0
-fig.suptitle("Dihedral Map (Chi_1 and Chi_2) of Asp25 (chain B) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+fig.suptitle("Dihedral Map (Chi_1 and Chi_2) of Thr26 (chain A) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
 
 lim_x0, lim_x1 = min(min_x), max(max_x)
 lim_y0, lim_y1 = min(min_y), max(max_y)
@@ -343,4 +390,46 @@ for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all
 plt.show()
 
 # 4.4. Save plot
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Asp_25_chi1_chi2_angles.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Thr26_chi1_chi2_angles.png", bbox_inches='tight', dpi=300)
+
+
+# 5. Plot Chi angles linearly over time for residues on chain A
+
+# 5.0. Prep for plot
+fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
+axes = axes.flatten()
+plot_idx = 0
+fig.suptitle("Chi_1 Graph of Thr26 (chain A) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+
+# 5.1. Plot Chi1
+for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all_angles, all_n_frames)):
+    ax = axes[i] # Assign the correct Axes object for plotting
+    ax.plot(angles_data[:,0], color="cyan", linewidth = 0.5)
+    ax.set_title(f"{current_sim_name}")
+    ax.set_xlabel("Frame")
+    ax.set_ylabel("Angle [radians]")
+    ax.grid(True, alpha=0.3)
+    plot_idx += 1
+plt.show()
+
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Chi1_Thr26_chA_linear.png", bbox_inches='tight', dpi=300)
+
+# 5.3. Prep for plot 2
+fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
+axes = axes.flatten()
+plot_idx = 0
+fig.suptitle("Chi_2 Graph of Thr26 (chain A) for MP (top) and DP (bottom) Simulations", fontsize=22, y=0.95)
+
+# 5.4. Plot Chi2
+
+for i, (current_sim_name, angles_data, n_frames) in enumerate(zip(sim_names, all_angles, all_n_frames)):
+    ax = axes[i] # Assign the correct Axes object for plotting
+    ax.plot(angles_data[:,1], color="pink", linewidth = 0.5)
+    ax.set_title(f"{current_sim_name}")
+    ax.set_xlabel("Frame")
+    ax.set_ylabel("Angle [radians]")
+    ax.grid(True, alpha=0.3)
+    plot_idx += 1
+plt.show()
+
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/Chi2_Thr26_chA_linear.png", bbox_inches='tight', dpi=300)
