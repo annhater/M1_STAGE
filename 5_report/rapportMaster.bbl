@@ -1,0 +1,71 @@
+ \newcommand{\noop}[1]{}
+\begin{thebibliography}{10}
+
+\bibitem{noauthor_global_nodate}
+Global {HIV} \& {AIDS} statistics — fact sheet {\textbar} {UNAIDS}.
+
+\bibitem{williams_geographic_2023}
+Alexandria Williams, Sonia Menon, Madeleine Crowe, Neha Agarwal, Jorne Biccler, Nicholas Bbosa, Deogratius Ssemwanga, Ferdinard Adungo, Christiane Moecklinghoff, Malcolm Macartney, and Valerie Oriol-Mathieu.
+\newblock Geographic and population distributions of human immunodeficiency virus ({HIV})–1 and {HIV}-2 circulating subtypes: A systematic literature review and meta-analysis (2010–2021).
+\newblock 228(11):1583--1591.
+
+\bibitem{van_der_loeff_epidemiology_2008}
+Maarten F.~Schim van~der Loeff.
+\newblock Epidemiology, natural history and treatment of {HIV}-2 infections.
+\newblock pages 637--647.
+
+\bibitem{barin_prevalence_2007}
+Francis Barin, Françoise Cazein, Florence Lot, Josiane Pillonel, Sylvie Brunet, Damien Thierry, Florence Damond, Françoise Brun-Vézinet, Jean-Claude Desenclos, and Caroline Semaille.
+\newblock Prevalence of {HIV}-2 and {HIV}-1 group {O} infections among new {HIV} diagnoses in {France}: 2003-2006.
+\newblock {\em AIDS}, 21(17):2351--2353, November 2007.
+
+\bibitem{soriano_human_2000}
+V.~Soriano, P.~Gomes, W.~Heneine, A.~Holguín, M.~Doruana, R.~Antunes, K.~Mansinho, W.~M. Switzer, C.~Araujo, V.~Shanmugam, H.~Lourenço, J.~González-Lahoz, and F.~Antunes.
+\newblock Human immunodeficiency virus type 2 ({HIV}-2) in {Portugal}: clinical spectrum, circulating subtypes, virus isolation, and plasma viral load.
+\newblock {\em Journal of Medical Virology}, 61(1):111--116, May 2000.
+
+\bibitem{desbois_vitro_2008}
+Delphine Desbois, Bénédicte Roquebert, Gilles Peytavin, Florence Damond, Gilles Collin, Antoine Bénard, Pauline Campa, Sophie Matheron, Geneviève Chêne, Françoise Brun-Vézinet, Diane Descamps, and {French ANRS HIV-2 Cohort (ANRS CO 05 VIH-2)}.
+\newblock In vitro phenotypic susceptibility of human immunodeficiency virus type 2 clinical isolates to protease inhibitors.
+\newblock {\em Antimicrobial Agents and Chemotherapy}, 52(4):1545--1548, April 2008.
+
+\bibitem{brower_inhibition_2008}
+Evan~T. Brower, Usman~M. Bacha, Yuko Kawasaki, and Ernesto Freire.
+\newblock Inhibition of {HIV}-2 protease by {HIV}-1 protease inhibitors in clinical use.
+\newblock {\em Chemical Biology \& Drug Design}, 71(4):298--305, April 2008.
+
+\bibitem{menendez-arias_antiretroviral_2014}
+Luis Menéndez-Arias and Mar Álvarez.
+\newblock Antiretroviral therapy and drug resistance in human immunodeficiency virus type 2 infection.
+\newblock {\em Antiviral Research}, 102:70--86, February 2014.
+
+\bibitem{scott_curling_2000}
+Walter R.~P. Scott and Celia~A. Schiffer.
+\newblock Curling of {Flap} {Tips} in {HIV}-1 {Protease} as a {Mechanism} for {Substrate} {Entry} and {Tolerance} of {Drug} {Resistance}.
+\newblock {\em Structure}, 8(12):1259--1265, December 2000.
+
+\bibitem{chen_revealing_2014}
+Jianzhong Chen, Zhiqiang Liang, Wei Wang, Changhong Yi, Shaolong Zhang, and Qinggang Zhang.
+\newblock Revealing {Origin} of {Decrease} in {Potency} of {Darunavir} and {Amprenavir} against {HIV}-2 relative to {HIV}-1 {Protease} by {Molecular} {Dynamics} {Simulations}.
+\newblock {\em Scientific Reports}, 4(1):6872, November 2014.
+
+\bibitem{sadiq_explicit_2010}
+S.~Kashif Sadiq and Gianni De~Fabritiis.
+\newblock Explicit solvent dynamics and energetics of {HIV}-1 protease flap opening and closing.
+\newblock {\em Proteins}, 78(14):2873--2885, November 2010.
+
+\bibitem{hornak_hiv-1_2006}
+Viktor Hornak, Asim Okur, Robert~C. Rizzo, and Carlos Simmerling.
+\newblock {HIV}-1 protease flaps spontaneously open and reclose in molecular dynamics simulations.
+\newblock {\em Proceedings of the National Academy of Sciences}, 103(4):915--920, January 2006.
+
+\bibitem{baillif_2026_18495249}
+Marine Baillif and Leslie Regad.
+\newblock Intrinsic conformational dynamics of apo hiv-2 protease reveal two dynamical phases and multiple closed flap states, February 2026\noop{3001} (in review).
+
+\bibitem{kar_origin_2012}
+Parimal Kar and Volker Knecht.
+\newblock Origin of {Decrease} in {Potency} of {Darunavir} and {Two} {Related} {Antiviral} {Inhibitors} against {HIV}-2 {Compared} to {HIV}-1 {Protease}.
+\newblock {\em The Journal of Physical Chemistry B}, 116(8):2605--2614, March 2012.
+
+\end{thebibliography}
