@@ -27,8 +27,8 @@ def get_rmsf(gro, xtc):
     average = align.AverageStructure(u, u, select='backbone').run()
     ref = average.universe
     aligner = align.AlignTraj(u, ref, select='backbone', in_memory=True).run()
-
-    # 2. compute RMSF for C-alphas
+                                            
+    # 2. compute RMSF for C-alphas           
     calphas = u.select_atoms("name CA")
     rmsfer = RMSF(calphas).run()
     return calphas.resids, rmsfer.results.rmsf
