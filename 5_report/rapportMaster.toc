@@ -1,32 +1,32 @@
 \babel@toc {french}{}\relax 
 \babel@toc {french}{}\relax 
-\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
-\contentsline {section}{\numberline {2}Matériels \& Méthodes}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Réalisation de Dynamique Moléculaire (DM)}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Métriques d'Analyse Structurale}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}$\text {RMSD}_{\text {stepwise}}$}{5}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2.2.2}RMSF}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.3}Distances inter-résidus}{6}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {2.2.4}Projection de résidu 50 de la chaîne B sur le plan défini par les résidus 49, 50, et 51 de la chaîne A}{6}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {2.2.5}$\text {RMSD}_{\text {pairs}}$}{6}{subsubsection.2.2.5}%
-\contentsline {subsubsection}{\numberline {2.2.6}Distance de Jaccard}{6}{subsubsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.3}Analyse multivariée}{7}{subsection.2.3}%
-\contentsline {subsubsection}{\numberline {2.3.1}Classification hiérarchique}{7}{subsubsection.2.3.1}%
-\contentsline {subsubsection}{\numberline {2.3.2}Construction d'une arbre de décision}{7}{subsubsection.2.3.2}%
-\contentsline {section}{\numberline {3}Résultats}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Etude de la dynamique globale de la PR2 selon l'état de protonation}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Etude de flexibilité de la PR2 selon l'état de protonation}{8}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}Caractérisation géométrique des régions d'intérêt}{8}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Analyse de la dynamique des flaps : la projection $d_{50B\xrightarrow {}49-50A-51A}$}{9}{subsection.3.4}%
-\contentsline {subsection}{\numberline {3.5}Analyse d'environnement du site catalytique : les réseaux d'interactions}{9}{subsection.3.5}%
-\contentsline {subsection}{\numberline {3.6}Analyse multivariée: classification hiérarchique}{10}{subsection.3.6}%
-\contentsline {subsection}{\numberline {3.7}Analyse multivariée: l'arbre de décision}{10}{subsection.3.7}%
-\contentsline {subsection}{\numberline {3.8}Étude de comportement du cœur proteique}{11}{subsection.3.8}%
-\contentsline {section}{\numberline {4}Discussion \& Conclusions}{12}{section.4}%
-\contentsline {section}{\numberline {5}Remerciements}{12}{section.5}%
-\contentsline {section}{Références}{13}{section.5}%
-\contentsline {section}{\numberline {A}Annexes}{15}{appendix.A}%
-\contentsline {subsection}{\numberline {A.1}Protocole de simulations de dynamique moléculaire (DM)}{15}{subsection.A.1}%
-\contentsline {subsection}{\numberline {A.2}Formule de RMSD}{15}{subsection.A.2}%
-\contentsline {subsection}{\numberline {A.3}Formule de RMSF}{15}{subsection.A.3}%
-\contentsline {subsection}{\numberline {A.4}Figures additionnelles}{15}{subsection.A.4}%
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Matériels \& Méthodes}{6}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Réalisation de Dynamique Moléculaire (DM)}{6}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Métriques d'Analyse Structurale}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}$\text {RMSD}_{\text {stepwise}}$}{6}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}RMSF}{7}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Distances inter-résidus}{7}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Projection de résidu 50 de la chaîne B sur le plan défini par les résidus 49, 50, et 51 de la chaîne A}{7}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}$\text {RMSD}_{\text {pairs}}$}{7}{subsubsection.2.2.5}%
+\contentsline {subsubsection}{\numberline {2.2.6}Distance de Jaccard}{7}{subsubsection.2.2.6}%
+\contentsline {subsection}{\numberline {2.3}Analyse multivariée}{8}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Classification hiérarchique}{8}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Construction d'une arbre de décision}{8}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Résultats}{8}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Etude de la dynamique globale de la PR2 selon l'état de protonation}{8}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Etude de flexibilité de la PR2 selon l'état de protonation}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Caractérisation géométrique des régions d'intérêt}{9}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Analyse de la dynamique des flaps : la projection $d_{50B\xrightarrow {}49-50A-51A}$}{10}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Analyse d'environnement du site catalytique : les réseaux d'interactions}{10}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Analyse multivariée: classification hiérarchique}{11}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Analyse multivariée: l'arbre de décision}{11}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Étude de comportement du cœur proteique}{12}{subsection.3.8}%
+\contentsline {section}{\numberline {4}Discussion \& Conclusions}{13}{section.4}%
+\contentsline {section}{\numberline {5}Remerciements}{13}{section.5}%
+\contentsline {section}{Références}{14}{section.5}%
+\contentsline {section}{\numberline {A}Annexes}{16}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Protocole de simulations de dynamique moléculaire (DM)}{16}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Formule de RMSD}{16}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Formule de RMSF}{16}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Figures additionnelles}{16}{subsection.A.4}%

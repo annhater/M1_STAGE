@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.30)  30 MAY 2026 23:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.30)  31 MAY 2026 16:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -767,139 +767,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--30
 
  []
 
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 34.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 34.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 34.
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc} <./Logo/logoUPC.png> <./Logo/mymaster.png>] (./rapportMaster.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc} <./Logo/logoUPC.png> <./Logo/mymaster.png>]
+
+[2] (./rapportMaster.toc)
 \tf@toc=\write4
 \openout4 = `rapportMaster.toc'.
 
 
 
-[2{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+[3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-<Figures/Maturation_Inhibition.png, id=144, 1688.3075pt x 887.315pt>
+<Figures/Maturation_Inhibition.png, id=149, 1688.3075pt x 887.315pt>
 File: Figures/Maturation_Inhibition.png Graphic file (type png)
 <use Figures/Maturation_Inhibition.png>
-Package pdftex.def Info: Figures/Maturation_Inhibition.png  used on input line 53.
+Package pdftex.def Info: Figures/Maturation_Inhibition.png  used on input line 57.
 (pdftex.def)             Requested size: 455.24411pt x 239.25331pt.
 
 
-[3 <./Figures/Maturation_Inhibition.png>]
-<Figures/PR2_structure_1.png, id=158, 1127.21124pt x 796.9775pt>
+[4 <./Figures/Maturation_Inhibition.png>]
+<Figures/PR2_structure_1.png, id=163, 1127.21124pt x 796.9775pt>
 File: Figures/PR2_structure_1.png Graphic file (type png)
 <use Figures/PR2_structure_1.png>
-Package pdftex.def Info: Figures/PR2_structure_1.png  used on input line 60.
+Package pdftex.def Info: Figures/PR2_structure_1.png  used on input line 64.
 (pdftex.def)             Requested size: 300.46277pt x 212.43843pt.
 
-Underfull \hbox (badness 2486) in paragraph at lines 64--65
+Underfull \hbox (badness 2486) in paragraph at lines 68--69
 [][]\T1/lmr/m/n/10.95 La pro-téase per-met la dé-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--70
+Underfull \hbox (badness 10000) in paragraph at lines 72--74
 
  []
 
 
-Overfull \hbox (2.07794pt too wide) in paragraph at lines 77--87
+Overfull \hbox (2.07794pt too wide) in paragraph at lines 81--91
  [][] 
  []
 
 
 
-[4 <./Figures/PR2_structure_1.png>]
-<Figures/protonation_on_1HSI.png, id=180, 1201.48875pt x 318.18875pt>
+[5 <./Figures/PR2_structure_1.png>]
+<Figures/protonation_on_1HSI.png, id=186, 1201.48875pt x 318.18875pt>
 File: Figures/protonation_on_1HSI.png Graphic file (type png)
 <use Figures/protonation_on_1HSI.png>
-Package pdftex.def Info: Figures/protonation_on_1HSI.png  used on input line 98.
+Package pdftex.def Info: Figures/protonation_on_1HSI.png  used on input line 102.
 (pdftex.def)             Requested size: 455.24411pt x 120.5634pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 103.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 107.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[5 <./Figures/protonation_on_1HSI.png>]
+[6 <./Figures/protonation_on_1HSI.png>]
 
-[6]
-<Figures/rmsd_steps_w_frames_unscaled.png, id=211, 1688.709pt x 769.4346pt>
+[7]
+<Figures/rmsd_steps_w_frames_unscaled.png, id=217, 1688.709pt x 769.4346pt>
 File: Figures/rmsd_steps_w_frames_unscaled.png Graphic file (type png)
 <use Figures/rmsd_steps_w_frames_unscaled.png>
-Package pdftex.def Info: Figures/rmsd_steps_w_frames_unscaled.png  used on input line 174.
+Package pdftex.def Info: Figures/rmsd_steps_w_frames_unscaled.png  used on input line 178.
 (pdftex.def)             Requested size: 455.24411pt x 207.42137pt.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 175.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 175.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 175.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/rmsf.png, id=212, 730.6497pt x 484.209pt>
+<Figures/rmsf.png, id=218, 730.6497pt x 484.209pt>
 File: Figures/rmsf.png Graphic file (type png)
 <use Figures/rmsf.png>
-Package pdftex.def Info: Figures/rmsf.png  used on input line 183.
+Package pdftex.def Info: Figures/rmsf.png  used on input line 187.
 (pdftex.def)             Requested size: 227.62206pt x 150.84207pt.
 
-Underfull \hbox (badness 1983) in paragraph at lines 184--184
+Underfull \hbox (badness 1983) in paragraph at lines 188--188
 \T1/lmr/m/n/10 qua-dra-tique) entre les six si-mu-la-tions étu-diées.
  []
 
 
 
-[7]
+[8]
 Underfull \vbox (badness 1189) has occurred while \output is active []
 
 
 
-[8 <./Figures/rmsd_steps_w_frames_unscaled.png> <./Figures/rmsf.png>]
+[9 <./Figures/rmsd_steps_w_frames_unscaled.png> <./Figures/rmsf.png>]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 200.
+(Font)              <12> on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 200.
+(hyperref)                removing `math shift' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 200.
+(hyperref)                removing `subscript' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\xrightarrow ' on input line 200.
+(hyperref)                removing `\xrightarrow ' on input line 204.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 200.
+(hyperref)                removing `math shift' on input line 204.
 
-<Figures/d50_projection.png, id=238, 1044.90375pt x 454.69875pt>
+<Figures/d50_projection.png, id=242, 1044.90375pt x 454.69875pt>
 File: Figures/d50_projection.png Graphic file (type png)
 <use Figures/d50_projection.png>
-Package pdftex.def Info: Figures/d50_projection.png  used on input line 206.
+Package pdftex.def Info: Figures/d50_projection.png  used on input line 210.
 (pdftex.def)             Requested size: 409.71692pt x 178.29619pt.
-<Figures/interactions_heatmap_2.png, id=240, 2089.8075pt x 4409.97563pt>
+<Figures/interactions_heatmap_2.png, id=244, 2089.8075pt x 4409.97563pt>
 File: Figures/interactions_heatmap_2.png Graphic file (type png)
 <use Figures/interactions_heatmap_2.png>
-Package pdftex.def Info: Figures/interactions_heatmap_2.png  used on input line 221.
+Package pdftex.def Info: Figures/interactions_heatmap_2.png  used on input line 225.
 (pdftex.def)             Requested size: 150.23138pt x 317.00659pt.
 
-Underfull \hbox (badness 2261) in paragraph at lines 222--222
+Underfull \hbox (badness 2261) in paragraph at lines 226--226
 []\T1/lmr/m/sc/10 Figure 7 \T1/lmr/m/n/10 ^^U |Heat-map de fré-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--222
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
 \T1/lmr/m/n/10 quences d'in-ter-ac-tions uniques
  []
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 222--222
+Underfull \hbox (badness 5504) in paragraph at lines 226--226
 \T1/lmr/m/n/10 qu'on re-trouve au-tour le site
  []
 
@@ -908,118 +910,114 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[9 <./Figures/d50_projection.png>]
+[10 <./Figures/d50_projection.png>]
 
-[10 <./Figures/interactions_heatmap_2.png>]
-<Figures/decision_tree_bonds.png, id=267, 659.46375pt x 329.23pt>
+[11 <./Figures/interactions_heatmap_2.png>]
+<Figures/decision_tree_bonds.png, id=271, 659.46375pt x 329.23pt>
 File: Figures/decision_tree_bonds.png Graphic file (type png)
 <use Figures/decision_tree_bonds.png>
-Package pdftex.def Info: Figures/decision_tree_bonds.png  used on input line 249.
+Package pdftex.def Info: Figures/decision_tree_bonds.png  used on input line 253.
 (pdftex.def)             Requested size: 300.46277pt x 150.00584pt.
 
-Underfull \hbox (badness 3769) in paragraph at lines 253--257
+Underfull \hbox (badness 3769) in paragraph at lines 257--261
 \T1/lmr/m/n/10.95 ma-jo-ri-tai-re-ment le tri vers
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 253--257
+Underfull \hbox (badness 1173) in paragraph at lines 257--261
 \T1/lmr/m/n/10.95 le-ment de l'an-crage des ré-
  []
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 253--257
+Underfull \hbox (badness 7522) in paragraph at lines 257--261
 \T1/lmr/m/n/10.95 si-dus de la boucle su-pé-
  []
 
-<Figures/coeur_prot.png, id=268, 1289.81876pt x 644.4075pt>
+<Figures/coeur_prot.png, id=272, 1289.81876pt x 644.4075pt>
 File: Figures/coeur_prot.png Graphic file (type png)
 <use Figures/coeur_prot.png>
-Package pdftex.def Info: Figures/coeur_prot.png  used on input line 262.
+Package pdftex.def Info: Figures/coeur_prot.png  used on input line 266.
 (pdftex.def)             Requested size: 455.24411pt x 227.44374pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[11 <./Figures/decision_tree_bonds.png> <./Figures/coeur_prot.png>]
+[12 <./Figures/decision_tree_bonds.png> <./Figures/coeur_prot.png>]
 
-[12] (./rapportMaster.bbl
+[13] (./rapportMaster.bbl
 
-[13])
+[14])
 
-[14]
-<Figures/pw_rmsd_V7_V12.png, id=291, 627.3036pt x 528.0528pt>
+[15]
+<Figures/pw_rmsd_V7_V12.png, id=296, 627.3036pt x 528.0528pt>
 File: Figures/pw_rmsd_V7_V12.png Graphic file (type png)
 <use Figures/pw_rmsd_V7_V12.png>
-Package pdftex.def Info: Figures/pw_rmsd_V7_V12.png  used on input line 326.
+Package pdftex.def Info: Figures/pw_rmsd_V7_V12.png  used on input line 330.
 (pdftex.def)             Requested size: 300.46277pt x 252.93068pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/d_25_50_chA.png, id=292, 1651.1286pt x 758.3532pt>
+<Figures/d_25_50_chA.png, id=297, 1651.1286pt x 758.3532pt>
 File: Figures/d_25_50_chA.png Graphic file (type png)
 <use Figures/d_25_50_chA.png>
-Package pdftex.def Info: Figures/d_25_50_chA.png  used on input line 333.
+Package pdftex.def Info: Figures/d_25_50_chA.png  used on input line 337.
 (pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/d_25_50_chB.png, id=293, 1651.1286pt x 758.3532pt>
+<Figures/d_25_50_chB.png, id=298, 1651.1286pt x 758.3532pt>
 File: Figures/d_25_50_chB.png Graphic file (type png)
 <use Figures/d_25_50_chB.png>
-Package pdftex.def Info: Figures/d_25_50_chB.png  used on input line 340.
+Package pdftex.def Info: Figures/d_25_50_chB.png  used on input line 344.
 (pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/d_25_25.png, id=294, 1651.1286pt x 758.3532pt>
+<Figures/d_25_25.png, id=299, 1651.1286pt x 758.3532pt>
 File: Figures/d_25_25.png Graphic file (type png)
 <use Figures/d_25_25.png>
-Package pdftex.def Info: Figures/d_25_25.png  used on input line 347.
+Package pdftex.def Info: Figures/d_25_25.png  used on input line 351.
 (pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/d_50.png, id=295, 1650.6468pt x 765.5802pt>
+<Figures/d_50.png, id=300, 1650.6468pt x 765.5802pt>
 File: Figures/d_50.png Graphic file (type png)
 <use Figures/d_50.png>
-Package pdftex.def Info: Figures/d_50.png  used on input line 354.
+Package pdftex.def Info: Figures/d_50.png  used on input line 358.
 (pdftex.def)             Requested size: 455.24411pt x 211.13681pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/dendrogrammRMSD.png, id=296, 1281.78876pt x 642.4pt>
+<Figures/dendrogrammRMSD.png, id=301, 1281.78876pt x 642.4pt>
 File: Figures/dendrogrammRMSD.png Graphic file (type png)
 <use Figures/dendrogrammRMSD.png>
-Package pdftex.def Info: Figures/dendrogrammRMSD.png  used on input line 361.
+Package pdftex.def Info: Figures/dendrogrammRMSD.png  used on input line 365.
 (pdftex.def)             Requested size: 455.24411pt x 228.15652pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/dendrogram_jaccard_sim.png, id=297, 1052.9739pt x 503.7219pt>
+<Figures/dendrogram_jaccard_sim.png, id=302, 1052.9739pt x 503.7219pt>
 File: Figures/dendrogram_jaccard_sim.png Graphic file (type png)
 <use Figures/dendrogram_jaccard_sim.png>
-Package pdftex.def Info: Figures/dendrogram_jaccard_sim.png  used on input line 368.
+Package pdftex.def Info: Figures/dendrogram_jaccard_sim.png  used on input line 372.
 (pdftex.def)             Requested size: 455.24411pt x 217.77986pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[15{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+[16{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
 
-[16 <./Figures/pw_rmsd_V7_V12.png> <./Figures/d_25_50_chA.png>]
+[17 <./Figures/pw_rmsd_V7_V12.png> <./Figures/d_25_50_chA.png>]
 
-[17 <./Figures/d_25_50_chB.png> <./Figures/d_25_25.png>]
+[18 <./Figures/d_25_50_chB.png> <./Figures/d_25_25.png>]
 
-[18 <./Figures/d_50.png> <./Figures/dendrogrammRMSD.png>]
+[19 <./Figures/d_50.png> <./Figures/dendrogrammRMSD.png>]
 
-[19 <./Figures/dendrogram_jaccard_sim.png>]
-
-[20
-
-] (./rapportMaster.aux)
+[20 <./Figures/dendrogram_jaccard_sim.png>] (./rapportMaster.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1030,13 +1028,13 @@ Package rerunfilecheck Info: File `rapportMaster.out' has not changed.
 Here is how much of TeX's memory you used:
  18723 strings out of 473197
  300873 string characters out of 5718605
- 862594 words of memory out of 5000000
+ 861594 words of memory out of 5000000
  41605 multiletter control sequences out of 15000+600000
  664872 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,19n,93p,1262b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,19n,93p,1662b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on rapportMaster.pdf (20 pages, 6705759 bytes).
+Output written on rapportMaster.pdf (20 pages, 6709300 bytes).
 PDF statistics:
  441 PDF objects out of 1000 (max. 8388607)
  343 compressed objects within 4 object streams

@@ -25,12 +25,16 @@
 	\def\spe{Modélisation des macromolécules} 
 	\def\supervisor{L. Regad \& M. Baillif}
 	\def\mydate{\today}
-	\def\keywords{VIH-2, protease, modelisation moléculaire}
+	\def\keywords{VIH-2, protéase, dynamique moléculaire, état de protonation, distance de Jaccard, arbre de décision}
 	
 	\Entete
+	
 	\begin{abstract}
-		In English: ... \par
-		En Français: ...
+		
+		%{\small The HIV-2 protease ($\text{PR2}$) is a major therapeutic target whose conformational dynamics governs its catalytic activity. This study uses molecular dynamics simulations (500--1000~ns) to characterize the structural impact of the monoprotonated state ($\text{MP}$) versus the deprotonated state ($\text{DP}$) on the \textit{apo} enzyme. While $\text{MP}$ systematically stabilizes a ``classical'' closed conformation (flap A over flap B) with a rigid catalytic core, $\text{DP}$ induces stochastic behaviors, yielding either a permanently open state (V11) or an inverted closure (V1, flap B over A). Notably, the deprotonated replicate V12 spontaneously achieves the stable classical closed conformation. To identify the molecular drivers of this alternative stabilization, a multivariate classification was applied to hydrogen-bonding networks during the phase transition ($\pm 36$~ns). Jaccard distance clustering revealed trajectory-dependent interaction profiles, while a Decision Tree demonstrated three possible interactions controls the transition. The process is spearheaded by the local disruption of the $\text{ARG8\_NH1}-\text{GLY126\_O}$ contact between the upper loop and the active site, acting as the structural gatekeeper to seal the closed state. These physical rules provide valuable insights for designing specific inhibitors targeting $\text{PR2}$.}
+	
+		\par
+		%{\small La protéase du VIH-2 ($\text{PR2}$) est une cible thérapeutique majeure dont la dynamique régit l'activité catalytique. Ce travail caractérise par dynamique moléculaire (500--1000~ns) l'impact de l'état de monoprotonation ($\text{MP}$) par rapport à l'état déprotoné ($\text{DP}$) sur la forme \textit{apo} de la $\text{PR2}$. Alors que la $\text{MP}$ stabilise systématiquement une conformation fermée «~classique~» (volet A devant B) et un noyau catalytique rigide, la $\text{DP}$ induit un comportement stochastique, menant à un état ouvert (V11) ou à une fermeture inversée (V1, volet B devant A). Étonnamment, le réplicat déprotoné V12 adopte spontanément la conformation fermée classique stable. Afin de décrypter les déterminants de cette stabilisation alternative, une classification multivariée a été appliquée aux réseaux de liaisons hydrogène lors de la transition inter-phasique ($\pm 36$~ns). Le partitionnement basé sur la distance de Jaccard montre des profils d'interactions dépendants de la trajectoire, tandis qu'un arbre de décision révèle qu'un ensemble minimal de trois interactions clés contrôle le passage de phase. Ce mécanisme est initié par la rupture locale du contact $\text{ARG8\_NH1}-\text{GLY126\_O}$ entre la boucle supérieure et le site catalytique, agissant comme le commutateur structural requis pour verrouiller la forme fermée. Ces règles physiques offrent de nouvelles pistes pour la conception rationnelle d'inhibiteurs spécifiques de la $\text{PR2}$.}
 	\end{abstract}
 	
 	\vfill
@@ -62,7 +66,7 @@
 		\label{fig:PR2_strct}
 	\end{wrapfigure}
 	La protéase permet la décomposition des protéines en unités protéiques plus petites, telles que les peptides ou les acides aminés. La protéase du VIH-2 est une protéase \textbf{aspartique}, qui assure la médiation des clivages protéolytiques des polyprotéines Gag et Gag-Pol pendant ou juste après la libération du virion de la membrane plasmatique, pour produire des protéines matures infectieuses (Fig.~\ref{fig:hiv2_maturation}). Les inhibiteurs -- soit du site actif, soit de la dimerisation -- empêchent le VIH de se répliquer. \\
-	Structurellement, la protéase VIH-2 est un homodimère, composé de deux chaînes polyprotéiques structurellement identiques, constituées chacune de 99 acides aminés (Fig.~\ref{fig:PR2_strct}). Le site actif de la PR2 est formé à l'interface du dimère et contient deux résidus d'acide aspartique catalytique, chacun d'eux étant apporté par leur sous-unités respectives, pour former deux motifs Asp-Thr-Gly (résidus 25 à 27). Deux régions de volets (\textit{flaps}) flexibles identiques participent également à la liaison d'inhibiteurs et de substrats~\cite{scott_curling_2000}.\par
+	Structurellement, la protéase VIH-2 est un homodimère, composé de deux chaînes polyprotéiques structurellement identiques, constituées chacune de 99 acides aminés (Fig.~\ref{fig:PR2_strct}). Le site actif de la PR2 est formé à l'interface du dimère et contient deux résidus d'acide aspartique catalytique, chacun d'eux étant apporté par leurs sous-unités respectives, pour former deux motifs Asp-Thr-Gly (résidus 25 à 27). Deux régions de volets (\textit{flaps}) flexibles identiques participent également à la liaison d'inhibiteurs et de substrats~\cite{scott_curling_2000}.\par
 	Plus précisément, la flexibilité des \textit{flaps} permet à l'enzyme de se trouver en conformation ouverte, semi-ouvert ou fermé~\cite{chen_revealing_2014, sadiq_explicit_2010, hornak_hiv-1_2006}. À l'état semi-ouvert, les \textit{flaps} sont soulevés, ce que permet l'entrée de substrat vers le site actif. Lorsqu'un ligand se lie au site actif la PR2 passe d'une forme semi-ouverte à une forme fermée, qui permet de recouvrir le site actif avec ligand lié, et donc induit l'action catalytique. Il a été démontré également qu'au cours de changements conformationnels, les réarrangements au niveau des \textit{flaps}, plus précisément le passage d'un \textit{flap} de chaine B devant \textit{flap} de chaine A, permet la fermeture ultérieure~\cite{hornak_hiv-1_2006, baillif_2026_18495249}. \par
 	De plus, il est connu que les inhibiteurs de PR1 cliniquement approuvés ciblent directement la dyade catalytique~\cite{kar_origin_2012}. Lorsque l'inhibiteur se lie au site catalytique, la dyade symétrique est transformée en dyade qui adopte un état de protonation asymétrique. Il est alors d'un grand intérêt d'étudier l'absence de ce proton (état déprotoné) afin de mieux comprendre l'effet que la protonation a sur les réarrangements conformationnels, ainsi que sur la dynamique d'ouverture ou de fermeture de la protéine.\par
 	La question globale que nous nous sommes posés au cours de ce projet était :~\emph{Quelle est l'impact de la protonation sur le comportement dynamique de la protéase du VIH-2 (PR2)?}\\
@@ -87,7 +91,7 @@
 		\caption{Tableau récapitulant les 6 simulations étudiés et ses conditions}
 		\label{tab:simulations}
 	\end{wraptable}
-	Afin de répondre à notre question d'étude, on a pris l'un des structures existantes pour PR2. Ici, on s'est base sur l'entree PDB 1HSI (PR2 non complexée à un inhibiteur (forme apo), résolution de 1.9 \AA). Elle a été utilisé comme structure de départ pour la DM. Les six simulations ont été lancées à partir de cette structure en utilisant différentes 
+	Afin de répondre à notre question d'étude, on a pris l'un des structures existantes pour PR2. Ici, on s'est basé sur l'entrée PDB 1HSI (PR2 non complexée à un inhibiteur (forme apo), résolution de 1.9 \AA). Elle a été utilisée comme structure de départ pour la DM. Les six simulations ont été lancées à partir de cette structure en utilisant différentes 
 	conditions de simulations : 3 en conditions déprotoné (V7,V8,V21) et 3 en conditions monoprotoné (V1,V11,V12), résume en tableur~\ref{tab:simulations}.
 	
 	
@@ -110,13 +114,13 @@
 	Pour valeurs de RMSD, les carbones $\alpha$ de chaque frame de simulation a été aligné sur les carbones $\alpha$ de frame 0 (structure de départ).
 	
 	\subsubsection{RMSF}
-	Lorsqu'on a défini comment la structure évolue au cours de temps, on voudrais preciser quels sont les résidus qui sont impliques dans changement conformationnel.
+	Lorsqu'on a défini comment la structure évolue au cours de temps, on voudrait préciser quels sont les résidus qui sont impliqués dans le changement conformationnel.
 	Pour cela, la métrique de RMSF (\textit{Root Mean Square Fluctuation}) a été calculé. Elle permet de mesurer l'écart de la position d'une particule (dans notre cas les carbones $\alpha$) par rapport à une position de référence (position d'atome moyenne) dans le temps.
-	La formule pour calculer les valeurs de RMSF, peut être retrouve en Annexes (\ref{A3}).
+	La formule pour calculer les valeurs de RMSF, peut-être retrouvé en Annexes (\ref{A3}).
 	
 	\subsubsection{Distances inter-résidus}
-	Par la suite, lorsqu'on a défini les résidus lesquels on voudrait observer plus en detail au cours de simulations, on a d'abord analysé les distances entre ces résidus d’intérêt.
-	La matrice des distances (qui considère toutes les paires des atomes en fonction des frames) a été crée avec le logiciel GROMACS.
+	Par la suite, lorsqu'on a défini les résidus lesquels on voudrait observer plus en détail au cours de simulations, on a d'abord analysé les distances entre ces résidus d’intérêt.
+	La matrice des distances (qui considère toutes les paires des atomes en fonction des frames) a été créé avec le logiciel GROMACS.
 	Depuis cette matrice, on a pu extraire les distances $d_{50-50}$, $d_{25-25}$, $d_{25-50}$, $d_{17-40}$.
 	%De plus, pour l'analyse des distances intra-atomiques plus précises entre les atomes OD1 et OD2 d'Asp25 de chaine A avec OD2 d'Asp25 de la chaine B (sur laquelle agit la protonation), on a utilisé \lstinline{MDAnalysis.analysis.distances} (cf. \lstinline{02_analysis_ASP_OD.py}).
 	
