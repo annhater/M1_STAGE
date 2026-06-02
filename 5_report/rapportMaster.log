@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.30)  2 JUN 2026 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.30)  2 JUN 2026 23:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -872,152 +872,64 @@ File: Figures/d50_projection_new_line.png Graphic file (type png)
 <use Figures/d50_projection_new_line.png>
 Package pdftex.def Info: Figures/d50_projection_new_line.png  used on input line 219.
 (pdftex.def)             Requested size: 455.24411pt x 69.66678pt.
-
-
-[9 <./Figures/d50_projection_new_line.png>]
-<Figures/interactions_heatmap_2.png, id=244, 2089.8075pt x 4409.97563pt>
+<Figures/interactions_heatmap_2.png, id=234, 2089.8075pt x 4409.97563pt>
 File: Figures/interactions_heatmap_2.png Graphic file (type png)
 <use Figures/interactions_heatmap_2.png>
-Package pdftex.def Info: Figures/interactions_heatmap_2.png  used on input line 229.
+Package pdftex.def Info: Figures/interactions_heatmap_2.png  used on input line 228.
 (pdftex.def)             Requested size: 150.23138pt x 317.00659pt.
 
-Underfull \hbox (badness 2261) in paragraph at lines 230--230
+Underfull \hbox (badness 2261) in paragraph at lines 229--229
 []\T1/lmr/m/sc/10 Figure 6 \T1/lmr/m/n/10 ^^U |Heat-map de fré-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 230--230
+Underfull \hbox (badness 10000) in paragraph at lines 229--229
 \T1/lmr/m/n/10 quences d'in-ter-ac-tions uniques
  []
 
 
-Underfull \hbox (badness 3333) in paragraph at lines 230--230
+Underfull \hbox (badness 3333) in paragraph at lines 229--229
 \T1/lmr/m/n/10 qu'on re-trouve au-tour du site
  []
 
-<Figures/coeur_prot.png, id=249, 1289.81876pt x 644.4075pt>
+<Figures/coeur_prot.png, id=239, 1289.81876pt x 644.4075pt>
 File: Figures/coeur_prot.png Graphic file (type png)
 <use Figures/coeur_prot.png>
-Package pdftex.def Info: Figures/coeur_prot.png  used on input line 254.
+Package pdftex.def Info: Figures/coeur_prot.png  used on input line 253.
 (pdftex.def)             Requested size: 455.24411pt x 227.44374pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[10 <./Figures/interactions_heatmap_2.png>]
-<Figures/decision_tree_bonds.png, id=256, 659.46375pt x 329.23pt>
+[9 <./Figures/d50_projection_new_line.png> <./Figures/interactions_heatmap_2.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Figures/decision_tree_bonds.png, id=252, 659.46375pt x 329.23pt>
 File: Figures/decision_tree_bonds.png Graphic file (type png)
 <use Figures/decision_tree_bonds.png>
-Package pdftex.def Info: Figures/decision_tree_bonds.png  used on input line 277.
+Package pdftex.def Info: Figures/decision_tree_bonds.png  used on input line 276.
 (pdftex.def)             Requested size: 300.46277pt x 150.00584pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[11 <./Figures/coeur_prot.png> <./Figures/decision_tree_bonds.png>]
 
-[12]
 
-[13] (./rapportMaster.bbl
+[10 <./Figures/decision_tree_bonds.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[14])
 
-[15]
-<Figures/Maturation_Inhibition.png, id=285, 1539.7525pt x 861.2175pt>
+
+[11 <./Figures/coeur_prot.png>]
+
+[12] (./rapportMaster.bbl
+
+[13])
+
+[14]
+<Figures/Maturation_Inhibition.png, id=281, 1539.7525pt x 861.2175pt>
 File: Figures/Maturation_Inhibition.png Graphic file (type png)
 <use Figures/Maturation_Inhibition.png>
-Package pdftex.def Info: Figures/Maturation_Inhibition.png  used on input line 348.
-(pdftex.def)             Requested size: 455.24411pt x 254.62202pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<Figures/pw_rmsd_V7_V12.png, id=290, 627.3036pt x 528.0528pt>
-File: Figures/pw_rmsd_V7_V12.png Graphic file (type png)
-<use Figures/pw_rmsd_V7_V12.png>
-Package pdftex.def Info: Figures/pw_rmsd_V7_V12.png  used on input line 355.
-(pdftex.def)             Requested size: 300.46277pt x 252.93068pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_25_50_chA.png, id=291, 1651.1286pt x 758.3532pt>
-File: Figures/d_25_50_chA.png Graphic file (type png)
-<use Figures/d_25_50_chA.png>
-Package pdftex.def Info: Figures/d_25_50_chA.png  used on input line 362.
-(pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_25_50_chB.png, id=292, 1651.1286pt x 758.3532pt>
-File: Figures/d_25_50_chB.png Graphic file (type png)
-<use Figures/d_25_50_chB.png>
-Package pdftex.def Info: Figures/d_25_50_chB.png  used on input line 369.
-(pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_25_25.png, id=293, 1651.1286pt x 758.3532pt>
-File: Figures/d_25_25.png Graphic file (type png)
-<use Figures/d_25_25.png>
-Package pdftex.def Info: Figures/d_25_25.png  used on input line 376.
-(pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_50.png, id=294, 1650.6468pt x 765.5802pt>
-File: Figures/d_50.png Graphic file (type png)
-<use Figures/d_50.png>
-Package pdftex.def Info: Figures/d_50.png  used on input line 383.
-(pdftex.def)             Requested size: 455.24411pt x 211.13681pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/dendrogrammRMSD.png, id=295, 1281.78876pt x 642.4pt>
-File: Figures/dendrogrammRMSD.png Graphic file (type png)
-<use Figures/dendrogrammRMSD.png>
-Package pdftex.def Info: Figures/dendrogrammRMSD.png  used on input line 390.
-(pdftex.def)             Requested size: 455.24411pt x 228.15652pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/dendrogram_jaccard_sim.png, id=296, 1052.9739pt x 503.7219pt>
-File: Figures/dendrogram_jaccard_sim.png Graphic file (type png)
-<use Figures/dendrogram_jaccard_sim.png>
-Package pdftex.def Info: Figures/dendrogram_jaccard_sim.png  used on input line 397.
-(pdftex.def)             Requested size: 455.24411pt x 217.77986pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-
-[16{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
-
-[17 <./Figures/Maturation_Inhibition.png> <./Figures/pw_rmsd_V7_V12.png>]
-
-[18 <./Figures/d_25_50_chA.png> <./Figures/d_25_50_chB.png>]
-
-[19 <./Figures/d_25_25.png> <./Figures/d_50.png>]
-
-[20 <./Figures/dendrogrammRMSD.png> <./Figures/dendrogram_jaccard_sim.png>] (./rapportMaster.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
-Package rerunfilecheck Info: File `rapportMaster.out' has not changed.
-(rerunfilecheck)             Checksum: BA3B9131E4702E77C944C5F99EB99F6C;4826.
- ) 
-Here is how much of TeX's memory you used:
- 18721 strings out of 473197
- 301028 string characters out of 5718605
- 862592 words of memory out of 5000000
- 41606 multiletter control sequences out of 15000+600000
- 664872 words of font info for 87 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 90i,19n,93p,1396b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on rapportMaster.pdf (20 pages, 6657610 bytes).
-PDF statistics:
- 438 PDF objects out of 1000 (max. 8388607)
- 338 compressed objects within 4 object streams
- 81 named destinations out of 1000 (max. 500000)
- 251 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+Package pdftex.def Info: Figures/Maturation_Inhibition.png  used on input line 347.
+(pdftex.def)             Requested size: 455.24411pt x 
