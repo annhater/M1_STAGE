@@ -12,7 +12,10 @@ import matplotlib.pyplot as plt
 import re
 
 #SETUP
-rootdir = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/interactions/'
+from google.colab import drive
+drive.mount('/content/drive')
+
+rootdir = '/content/drive/MyDrive/M1_STAGE/interactions/'
 os.chdir(rootdir)
 
 #FUNCTIONS
