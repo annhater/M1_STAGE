@@ -3,8 +3,8 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {section}{\numberline {2}Matériels \& Méthodes}{5}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Simulations de Dynamique Moléculaire (DM)}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Métriques d'Analyse Structurale}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.1}$\text {RMSD}_{\text {stepwise}}$}{5}{subsubsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2}Métriques d'Analyse Structurale}{6}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}$\text {RMSD}_{\text {stepwise}}$}{6}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}RMSF}{6}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Distances inter-résidus}{6}{subsubsection.2.2.3}%
 \contentsline {subsubsection}{\numberline {2.2.4}Projection de résidu 50 de la chaîne B sur le plan défini par les résidus 49, 50, et 51 de la chaîne A}{6}{subsubsection.2.2.4}%
@@ -12,7 +12,7 @@
 \contentsline {subsubsection}{\numberline {2.2.6}Distance de Jaccard}{7}{subsubsection.2.2.6}%
 \contentsline {section}{\numberline {3}Résultats}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Etude de la dynamique globale de la PR2 selon l'état de protonation}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Etude de flexibilité de la PR2 selon l'état de protonation}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Etude de flexibilité de la PR2 selon l'état de protonation}{8}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Caractérisation géométrique des régions d'intérêt}{8}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Analyse de la dynamique des flaps : la projection $d_{50B\xrightarrow {}49-50A-51A}$}{9}{subsection.3.4}%
 \contentsline {subsection}{\numberline {3.5}Analyse d'environnement du site catalytique : les réseaux d'interactions}{10}{subsection.3.5}%

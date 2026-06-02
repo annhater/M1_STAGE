@@ -1,15 +1,15 @@
 # Fdb version 4
-["bibtex rapportMaster"] 1780414679.3495 "rapportMaster.aux" "rapportMaster.bbl" "rapportMaster" 1780414694.31784 0
-  "./masterBib.bib" 1780078690 22796 7b84cacced52b9e46dcddc6a29bb9da9 ""
+["bibtex rapportMaster"] 1780434728.69895 "rapportMaster.aux" "rapportMaster.bbl" "rapportMaster" 1780434739.10428 0
+  "./masterBib.bib" 1780434707.77757 23291 b8fff95ad61af0cf0fc54d7d93f7c6dc ""
   "/usr/share/texlive/texmf-dist/bibtex/bst/base/unsrt.bst" 1292289607 18030 1376b4b231b50c66211e47e42eda2875 ""
-  "rapportMaster.aux" 1780414693.59212 14102 509dd435f8e482f1b1ccc61c65feed7f "pdflatex"
+  "rapportMaster.aux" 1780434738.46466 14570 ff75fc898a9d03d3fa3b7fc3edde4b1d "pdflatex"
   (generated)
   "rapportMaster.bbl"
   "rapportMaster.blg"
   (rewritten before read)
-["pdflatex"] 1780414679.61767 "/home/ann_hater/Documents/University/M1/M1_STAGE-1/5_report/rapportMaster.tex" "rapportMaster.pdf" "rapportMaster" 1780414694.31871 0
+["pdflatex"] 1780434728.91413 "/home/ann_hater/Documents/University/M1/M1_STAGE-1/5_report/rapportMaster.tex" "rapportMaster.pdf" "rapportMaster" 1780434739.10459 0
   "/etc/texmf/web2c/texmf.cnf" 1780098422.72095 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/ann_hater/Documents/University/M1/M1_STAGE-1/5_report/rapportMaster.tex" 1780414680.16088 45503 1ef6e79687954b058072ae62979ed133 ""
+  "/home/ann_hater/Documents/University/M1/M1_STAGE-1/5_report/rapportMaster.tex" 1780434707.65678 47806 11db4e84e2fb1c8133a0d72870d1d722 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
@@ -170,10 +170,10 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1780098462 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1780098647 3348224 4462089047105f77b59530a52f5b6e10 ""
-  "Figures/Maturation_Inhibition.png" 1780078702 473590 807a92c95535c546bd880fc5a9fc5558 ""
+  "Figures/Maturation_Inhibition.png" 1780421526 365523 863149c8e5ca622ac22dfe7c35628f2b ""
   "Figures/PR2_structure_1.png" 1779128712 372271 289ddadb63e46db02575781053fa51c0 ""
   "Figures/coeur_prot.png" 1779964608 434884 fe16ac5264a2a86f55ca1ca6c4f1dbaa ""
-  "Figures/d50_projection.png" 1780154831.76344 175854 f687486ab8a66be95c1381cbe43fd5ee ""
+  "Figures/d50_projection_new_line.png" 1780427892 365659 2643c979bd4cabd755bc61f4e4ddf4ca ""
   "Figures/d_25_25.png" 1780154794.57062 242126 272f990d297f206af13b85ad61c365dc ""
   "Figures/d_25_50_chA.png" 1780154803.09758 369211 443b936ff4873063c3f60c3862ad643e ""
   "Figures/d_25_50_chB.png" 1780155001.6986 318984 f554f19ccfb20e611bd08d1835ac3026 ""
@@ -184,16 +184,16 @@
   "Figures/interactions_heatmap_2.png" 1780154968.59276 779278 7afec9a82346c057582c0e92d4960b85 ""
   "Figures/protonation_on_1HSI.png" 1780078712 224541 93c22fe320862dfc3ef4ea45f025d0b5 ""
   "Figures/pw_rmsd_V7_V12.png" 1780148741.28344 1340149 835ae720607dfa2f7adb37ec94678cd0 ""
-  "Figures/rmsd_steps_w_frames_unscaled.png" 1780148681.44171 870095 166c25ef7f402390bb9e6153bcb0f42e ""
-  "Figures/rmsf.png" 1780148632.28494 153965 627af9a6ccde0bb4c221051eba69ab22 ""
+  "Figures/rmsd_steps_w_frames_scaled_new_line.png" 1780416538.15483 604561 f0c107aedc9b7281f1f533e31a743563 ""
+  "Figures/rmsf_new.png" 1780417520.30878 163292 8aad69072751362b5477a0b5648d9e81 ""
   "Logo/logoUPC.png" 1779286272 7104 7401ee61d2508e032c150894a57a7784 ""
   "Logo/mymaster.png" 1779286276 50476 46fbf5837d45d537820bf65b73ea346f ""
   "isddmaster.cls" 1780414485.82156 5954 09aff96ba63daeda06bd3d82dca7950f ""
-  "rapportMaster.aux" 1780414693.59212 14102 509dd435f8e482f1b1ccc61c65feed7f "pdflatex"
-  "rapportMaster.bbl" 1780414679.60008 4328 ebb74c2ebff273ec1a6032c54e7b2c1c "bibtex rapportMaster"
-  "rapportMaster.out" 1780414693.59612 4826 ba3b9131e4702e77c944c5f99eb99f6c "pdflatex"
-  "rapportMaster.tex" 1780414680.16088 45503 1ef6e79687954b058072ae62979ed133 ""
-  "rapportMaster.toc" 1780414693.59812 2716 885e8939cdfeb460425709e753141fcf "pdflatex"
+  "rapportMaster.aux" 1780434738.46466 14570 ff75fc898a9d03d3fa3b7fc3edde4b1d "pdflatex"
+  "rapportMaster.bbl" 1780434728.89863 4491 83ffa350ca14b17430afdd8735733e09 "bibtex rapportMaster"
+  "rapportMaster.out" 1780434738.46966 4826 ba3b9131e4702e77c944c5f99eb99f6c "pdflatex"
+  "rapportMaster.tex" 1780434707.65678 47806 11db4e84e2fb1c8133a0d72870d1d722 ""
+  "rapportMaster.toc" 1780434738.47066 2716 78975574600722cfa022e8ec0a84c8f3 "pdflatex"
   (generated)
   "rapportMaster.aux"
   "rapportMaster.log"
