@@ -28,7 +28,7 @@ def find_asp_int(interactions_file):
 def analyze_asp_hbonds(interactions_file):
     df = pd.read_csv(interactions_file)
     n_frames = len(df)
-    resid_list = ['23','24','25','26','27','28','122','123','124','125','126','127']
+    resid_list = ['23','24','25','26','27','122','123','124','125','126']
     # Filter columns for H-bonds involving Asp 25/124 and near residues
     hb_cols = [col for col in df.columns if 'hb' in col and any(resid in col for resid in resid_list)]
         
@@ -47,8 +47,8 @@ def get_res_num(interaction_string):
 
 #MAIN
 
-interaction_files = ['res_V1.csv', 'res_V11.csv', 'res_V12.csv', 'res_V7.csv', 'res_V8.csv', 'res_V21.csv']
-simulation_names = ['V1', 'V11', 'V12', 'V7', 'V8', 'V21']
+interaction_files = ['res_V1.csv', 'res_V11.csv', 'res_V12.csv', 'res_V7.csv']
+simulation_names = ['V1', 'V11', 'V12', 'V7']
 all_results = []
 
 for sim_file in interaction_files:
@@ -94,13 +94,13 @@ sns.heatmap(df_sorted.T,
             #linewidths=0.3)
             )
 #ax.set_aspect(freq_percent.shape[1] / freq_percent.shape[0])
-plt.title("Fréquence des liaisons hydrogènes", fontsize=16)
+#plt.title("Fréquence des liaisons hydrogènes", fontsize=16)
 plt.xlabel("Simulation")
 plt.ylabel("Type d'interaction")
 plt.yticks(family='monospace', fontsize=10)
-plt.xticks(family='monospace', rotation=45, ha='right', fontsize=8)
+plt.xticks(family='monospace', rotation=90, fontsize=8)
 plt.tight_layout()
 
 plt.show()
 #save plot
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/interactions_heatmap_2.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/interactions_heatmap_2.png", bbox_inches='tight', dpi=150)
