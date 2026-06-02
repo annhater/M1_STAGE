@@ -17,12 +17,12 @@
 	{1.3ex \@plus.2ex}% after skip
 	{\normalfont\Large\bfseries}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-	{-5.25ex\@plus -1ex \@minus -.2ex}% 
-	{1.0ex \@plus .2ex}%
+	{-3.0ex\@plus -1ex \@minus -.2ex}% 
+	{0.5ex \@plus .2ex}%
 	{\normalfont\large\bfseries}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
-	{-3.25ex\@plus -1ex \@minus -.2ex}% 
-	{1.5ex \@plus .2ex}%
+	{-2.0ex\@plus -1ex \@minus -.2ex}% 
+	{0.3ex \@plus .2ex}%
 	{\normalfont\normalsize\bfseries}}
 
 %---- Table of Contents and sectioning depth
@@ -160,9 +160,9 @@ urlcolor=blue]{hyperref}
 	\begin{minipage}{0.30\linewidth}
 		\includegraphics[width=\linewidth]{Logo/logoUPC.png}\\[2mm]
 		\includegraphics[width=\linewidth]{Logo/mymaster.png}\\[2mm]
-		\hspace*{\fill}{\sc \spe}\hspace*{1.5mm}\\[1cm]
+		\hspace*{\fill}{\sc \spe}\hspace*{1.5mm}\\[0.2cm]
 	\end{minipage}
-	\medskip
+	\smallskip
 	{\parskip 3pt
 		\begin{center}
 			\hrule
