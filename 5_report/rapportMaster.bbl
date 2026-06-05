@@ -24,6 +24,11 @@ V.~Soriano, P.~Gomes, W.~Heneine, A.~Holguín, M.~Doruana, R.~Antunes, K.~Mansin
 \newblock Human immunodeficiency virus type 2 ({HIV}-2) in {Portugal}: clinical spectrum, circulating subtypes, virus isolation, and plasma viral load.
 \newblock {\em Journal of Medical Virology}, 61(1):111--116, May 2000.
 
+\bibitem{lv_hiv_2015}
+Zhengtong Lv, Yuan Chu, and Yong Wang.
+\newblock {HIV} protease inhibitors: a review of molecular selectivity and toxicity.
+\newblock {\em HIV/AIDS (Auckland, N.Z.)}, 7:95--104, April 2015.
+
 \bibitem{desbois_vitro_2008}
 Delphine Desbois, Bénédicte Roquebert, Gilles Peytavin, Florence Damond, Gilles Collin, Antoine Bénard, Pauline Campa, Sophie Matheron, Geneviève Chêne, Françoise Brun-Vézinet, Diane Descamps, and {French ANRS HIV-2 Cohort (ANRS CO 05 VIH-2)}.
 \newblock In vitro phenotypic susceptibility of human immunodeficiency virus type 2 clinical isolates to protease inhibitors.
@@ -39,6 +44,16 @@ Luis Menéndez-Arias and Mar Álvarez.
 \newblock Antiretroviral therapy and drug resistance in human immunodeficiency virus type 2 infection.
 \newblock {\em Antiviral Research}, 102:70--86, February 2014.
 
+\bibitem{chenCrystalStructure19A1994}
+Z.~Chen, Y.~Li, E.~Chen, D.~L. Hall, P.~L. Darke, C.~Culberson, J.~A. Shafer, and L.~C. Kuo.
+\newblock Crystal structure at 1.9-{{A}} resolution of human immunodeficiency virus ({{HIV}}) {{II}} protease complexed with {{L-735}},524, an orally bioavailable inhibitor of the {{HIV}} proteases.
+\newblock {\em The Journal of Biological Chemistry}, 269(42):26344--26348, October 1994.
+
+\bibitem{sadiq_explicit_2010}
+S.~Kashif Sadiq and Gianni De~Fabritiis.
+\newblock Explicit solvent dynamics and energetics of {HIV}-1 protease flap opening and closing.
+\newblock {\em Proteins}, 78(14):2873--2885, November 2010.
+
 \bibitem{scott_curling_2000}
 Walter R.~P. Scott and Celia~A. Schiffer.
 \newblock Curling of {Flap} {Tips} in {HIV}-1 {Protease} as a {Mechanism} for {Substrate} {Entry} and {Tolerance} of {Drug} {Resistance}.
@@ -49,11 +64,6 @@ Jianzhong Chen, Zhiqiang Liang, Wei Wang, Changhong Yi, Shaolong Zhang, and Qing
 \newblock Revealing {Origin} of {Decrease} in {Potency} of {Darunavir} and {Amprenavir} against {HIV}-2 relative to {HIV}-1 {Protease} by {Molecular} {Dynamics} {Simulations}.
 \newblock {\em Scientific Reports}, 4(1):6872, November 2014.
 
-\bibitem{sadiq_explicit_2010}
-S.~Kashif Sadiq and Gianni De~Fabritiis.
-\newblock Explicit solvent dynamics and energetics of {HIV}-1 protease flap opening and closing.
-\newblock {\em Proteins}, 78(14):2873--2885, November 2010.
-
 \bibitem{hornak_hiv-1_2006}
 Viktor Hornak, Asim Okur, Robert~C. Rizzo, and Carlos Simmerling.
 \newblock {HIV}-1 protease flaps spontaneously open and reclose in molecular dynamics simulations.
@@ -63,9 +73,43 @@ Viktor Hornak, Asim Okur, Robert~C. Rizzo, and Carlos Simmerling.
 Marine Baillif and Leslie Regad.
 \newblock Intrinsic conformational dynamics of apo hiv-2 protease reveal two dynamical phases and multiple closed flap states, February 2026\noop{3001} (in review).
 
-\bibitem{kar_origin_2012}
-Parimal Kar and Volker Knecht.
-\newblock Origin of {Decrease} in {Potency} of {Darunavir} and {Two} {Related} {Antiviral} {Inhibitors} against {HIV}-2 {Compared} to {HIV}-1 {Protease}.
-\newblock {\em The Journal of Physical Chemistry B}, 116(8):2605--2614, March 2012.
+\bibitem{congExploringReasonsDecrease2018}
+Yalong Cong, Yuchen Li, Kun Jin, Susu Zhong, John Z.~H. Zhang, Hao Li, and Lili Duan.
+\newblock Exploring the {{Reasons}} for {{Decrease}} in {{Binding Affinity}} of {{HIV-2 Against HIV-1 Protease Complex Using Interaction Entropy Under Polarized Force Field}}.
+\newblock {\em Frontiers in Chemistry}, 6, August 2018.
+
+\bibitem{HUMP96}
+William Humphrey, Andrew Dalke, and Klaus Schulten.
+\newblock {VMD} -- {V}isual {M}olecular {D}ynamics.
+\newblock {\em Journal of Molecular Graphics}, 14:33--38, 1996.
+
+\bibitem{PyMOL}
+{Schr\"odinger, LLC}.
+\newblock The {PyMOL} molecular graphics system, version~1.8.
+\newblock November 2015.
+
+\bibitem{gowersMDAnalysisPythonPackage2016}
+Richard~J. Gowers, Max Linke, Jonathan Barnoud, Tyler J.~E. Reddy, Manuel~N. Melo, Sean~L. Seyler, Jan Doma{\'n}ski, David~L. Dotson, S{\'e}bastien Buchoux, Ian~M. Kenney, and Oliver Beckstein.
+\newblock {{MDAnalysis}}: {{A Python Package}} for the {{Rapid Analysis}} of {{Molecular Dynamics Simulations}}.
+\newblock {\em SciPy 2016}, June 2016.
+
+\bibitem{michaud-agrawalMDAnalysisToolkitAnalysis2011}
+Naveen {Michaud-Agrawal}, Elizabeth~J. Denning, Thomas~B. Woolf, and Oliver Beckstein.
+\newblock {{MDAnalysis}}: {{A}} toolkit for the analysis of molecular dynamics simulations.
+\newblock {\em Journal of Computational Chemistry}, 32(10):2319--2327, 2011.
+
+\bibitem{McGibbon2015MDTraj}
+Robert~T. McGibbon, Kyle~A. Beauchamp, Matthew~P. Harrigan, Christoph Klein, Jason~M. Swails, Carlos~X. Hern{\'a}ndez, Christian~R. Schwantes, Lee-Ping Wang, Thomas~J. Lane, and Vijay~S. Pande.
+\newblock Mdtraj: A modern open library for the analysis of molecular dynamics trajectories.
+\newblock {\em Biophysical Journal}, 109(8):1528 -- 1532, 2015.
+
+\bibitem{grantBio3dBiologicalStructure2024}
+Barry Grant, Xin-Qiu Yao, Lars Skjaerven, and Julien Ide.
+\newblock Bio3d: {{Biological Structure Analysis}}, October 2024.
+
+\bibitem{rajput_mechanism_2026}
+Harsh~Singh Rajput.
+\newblock Mechanism of {Action} of {Protease} {Inhibitors}, May 2026.
+\newblock Section: Mechanism of Action.
 
 \end{thebibliography}

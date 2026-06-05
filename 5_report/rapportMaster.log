@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.30)  31 MAY 2026 16:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2025/dev/Debian) (preloaded format=pdflatex 2026.5.30)  5 JUN 2026 13:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -726,318 +726,557 @@ Package fr-subfig Warning: The additions cooperated with
 \FBsc@max=\skip97
 \FBso@max=\skip98
 )
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
-
- []
-
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 30.
-(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 34.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 30.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 34.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 30.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 34.
  (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 30.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 34.
  (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 30.
+(Font)              <10.95> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 34.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 30.
-<Logo/logoUPC.png, id=91, 447.6725pt x 170.6375pt>
+(Font)              <6> on input line 34.
+<Logo/logoUPC.png, id=87, 447.6725pt x 170.6375pt>
 File: Logo/logoUPC.png Graphic file (type png)
 <use Logo/logoUPC.png>
-Package pdftex.def Info: Logo/logoUPC.png  used on input line 30.
+Package pdftex.def Info: Logo/logoUPC.png  used on input line 34.
 (pdftex.def)             Requested size: 136.57462pt x 52.05867pt.
-<Logo/mymaster.png, id=93, 240.9pt x 62.634pt>
+<Logo/mymaster.png, id=89, 240.9pt x 62.634pt>
 File: Logo/mymaster.png Graphic file (type png)
 <use Logo/mymaster.png>
-Package pdftex.def Info: Logo/mymaster.png  used on input line 30.
+Package pdftex.def Info: Logo/mymaster.png  used on input line 34.
 (pdftex.def)             Requested size: 136.57462pt x 35.51059pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--30
+Underfull \hbox (badness 10000) in paragraph at lines 34--34
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 34.
+(Font)              <10> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 34.
+(Font)              <7> on input line 37.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 34.
+(Font)              <5> on input line 37.
 
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc} <./Logo/logoUPC.png> <./Logo/mymaster.png>]
-
-[2] (./rapportMaster.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc} <./Logo/logoUPC.png> <./Logo/mymaster.png>] (./rapportMaster.toc)
 \tf@toc=\write4
 \openout4 = `rapportMaster.toc'.
 
 
 
-[3{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
- []
-
-<Figures/Maturation_Inhibition.png, id=149, 1688.3075pt x 887.315pt>
-File: Figures/Maturation_Inhibition.png Graphic file (type png)
-<use Figures/Maturation_Inhibition.png>
-Package pdftex.def Info: Figures/Maturation_Inhibition.png  used on input line 57.
-(pdftex.def)             Requested size: 455.24411pt x 239.25331pt.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 	\newpage
+               [2]
+Underfull \vbox (badness 5345) has occurred while \output is active []
 
 
-[4 <./Figures/Maturation_Inhibition.png>]
-<Figures/PR2_structure_1.png, id=163, 1127.21124pt x 796.9775pt>
+
+[1]
+<Figures/PR2_structure_1.png, id=169, 1127.21124pt x 796.9775pt>
 File: Figures/PR2_structure_1.png Graphic file (type png)
 <use Figures/PR2_structure_1.png>
-Package pdftex.def Info: Figures/PR2_structure_1.png  used on input line 64.
-(pdftex.def)             Requested size: 300.46277pt x 212.43843pt.
+Package pdftex.def Info: Figures/PR2_structure_1.png  used on input line 79.
+(pdftex.def)             Requested size: 341.43307pt x 241.40565pt.
 
-Underfull \hbox (badness 2486) in paragraph at lines 68--69
-[][]\T1/lmr/m/n/10.95 La pro-téase per-met la dé-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--74
-
- []
-
-
-Overfull \hbox (2.07794pt too wide) in paragraph at lines 81--91
+Overfull \hbox (2.07794pt too wide) in paragraph at lines 90--98
  [][] 
  []
 
-
-
-[5 <./Figures/PR2_structure_1.png>]
-<Figures/protonation_on_1HSI.png, id=186, 1201.48875pt x 318.18875pt>
+<Figures/protonation_on_1HSI.png, id=172, 1201.48875pt x 318.18875pt>
 File: Figures/protonation_on_1HSI.png Graphic file (type png)
 <use Figures/protonation_on_1HSI.png>
-Package pdftex.def Info: Figures/protonation_on_1HSI.png  used on input line 102.
-(pdftex.def)             Requested size: 455.24411pt x 120.5634pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 107.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+Package pdftex.def Info: Figures/protonation_on_1HSI.png  used on input line 108.
+(pdftex.def)             Requested size: 386.96027pt x 102.47792pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 113.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 
-[6 <./Figures/protonation_on_1HSI.png>]
+[2 <./Figures/PR2_structure_1.png>]
 
-[7]
-<Figures/rmsd_steps_w_frames_unscaled.png, id=217, 1688.709pt x 769.4346pt>
-File: Figures/rmsd_steps_w_frames_unscaled.png Graphic file (type png)
-<use Figures/rmsd_steps_w_frames_unscaled.png>
-Package pdftex.def Info: Figures/rmsd_steps_w_frames_unscaled.png  used on input line 178.
-(pdftex.def)             Requested size: 455.24411pt x 207.42137pt.
+[3 <./Figures/protonation_on_1HSI.png>]
+
+[4]
+<Figures/RMSD_new.png, id=221, 1370.11874pt x 331.2375pt>
+File: Figures/RMSD_new.png Graphic file (type png)
+<use Figures/RMSD_new.png>
+Package pdftex.def Info: Figures/RMSD_new.png  used on input line 158.
+(pdftex.def)             Requested size: 455.24411pt x 110.05673pt.
+<Figures/rmsf_new.png, id=223, 860.013pt x 570.933pt>
+File: Figures/rmsf_new.png Graphic file (type png)
+<use Figures/rmsf_new.png>
+Package pdftex.def Info: Figures/rmsf_new.png  used on input line 172.
+(pdftex.def)             Requested size: 273.14923pt x 181.33455pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<Figures/rmsf.png, id=218, 730.6497pt x 484.209pt>
-File: Figures/rmsf.png Graphic file (type png)
-<use Figures/rmsf.png>
-Package pdftex.def Info: Figures/rmsf.png  used on input line 187.
-(pdftex.def)             Requested size: 227.62206pt x 150.84207pt.
 
-Underfull \hbox (badness 1983) in paragraph at lines 188--188
-\T1/lmr/m/n/10 qua-dra-tique) entre les six si-mu-la-tions étu-diées.
+
+[5 <./Figures/RMSD_new.png>]
+<Figures/d_50_new.png, id=238, 1370.11874pt x 331.2375pt>
+File: Figures/d_50_new.png Graphic file (type png)
+<use Figures/d_50_new.png>
+Package pdftex.def Info: Figures/d_50_new.png  used on input line 189.
+(pdftex.def)             Requested size: 455.24411pt x 110.05673pt.
+
+
+[6 <./Figures/rmsf_new.png> <./Figures/d_50_new.png>]
+<Figures/d50_projection_new_line.png, id=248, 1383.1675pt x 280.04625pt>
+File: Figures/d50_projection_new_line.png Graphic file (type png)
+<use Figures/d50_projection_new_line.png>
+Package pdftex.def Info: Figures/d50_projection_new_line.png  used on input line 210.
+(pdftex.def)             Requested size: 455.24411pt x 92.17197pt.
+<Figures/d_25_25_w_frames.png, id=249, 986.68625pt x 777.90625pt>
+File: Figures/d_25_25_w_frames.png Graphic file (type png)
+<use Figures/d_25_25_w_frames.png>
+Package pdftex.def Info: Figures/d_25_25_w_frames.png  used on input line 222.
+(pdftex.def)             Requested size: 295.90588pt x 233.29057pt.
+
+
+[7 <./Figures/d50_projection_new_line.png> <./Figures/d_25_25_w_frames.png>]
+<Figures/interactions_heatmap_new.png, id=258, 330.9966pt x 570.933pt>
+File: Figures/interactions_heatmap_new.png Graphic file (type png)
+<use Figures/interactions_heatmap_new.png>
+Package pdftex.def Info: Figures/interactions_heatmap_new.png  used on input line 235.
+(pdftex.def)             Requested size: 182.09486pt x 314.10123pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--237
+\T1/lmr/m/n/10 Notation : [][][][][][][][][][][][][]
  []
 
 
-
-[8]
-Underfull \vbox (badness 1189) has occurred while \output is active []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-
-[9 <./Figures/rmsd_steps_w_frames_unscaled.png> <./Figures/rmsf.png>]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 204.
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 204.
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 204.
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\xrightarrow ' on input line 204.
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 204.
-
-<Figures/d50_projection.png, id=242, 1044.90375pt x 454.69875pt>
-File: Figures/d50_projection.png Graphic file (type png)
-<use Figures/d50_projection.png>
-Package pdftex.def Info: Figures/d50_projection.png  used on input line 210.
-(pdftex.def)             Requested size: 409.71692pt x 178.29619pt.
-<Figures/interactions_heatmap_2.png, id=244, 2089.8075pt x 4409.97563pt>
-File: Figures/interactions_heatmap_2.png Graphic file (type png)
-<use Figures/interactions_heatmap_2.png>
-Package pdftex.def Info: Figures/interactions_heatmap_2.png  used on input line 225.
-(pdftex.def)             Requested size: 150.23138pt x 317.00659pt.
-
-Underfull \hbox (badness 2261) in paragraph at lines 226--226
-[]\T1/lmr/m/sc/10 Figure 7 \T1/lmr/m/n/10 ^^U |Heat-map de fré-
- []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 226--226
-\T1/lmr/m/n/10 quences d'in-ter-ac-tions uniques
- []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Underfull \hbox (badness 5504) in paragraph at lines 226--226
-\T1/lmr/m/n/10 qu'on re-trouve au-tour le site
- []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-
-[10 <./Figures/d50_projection.png>]
-
-[11 <./Figures/interactions_heatmap_2.png>]
-<Figures/decision_tree_bonds.png, id=271, 659.46375pt x 329.23pt>
-File: Figures/decision_tree_bonds.png Graphic file (type png)
-<use Figures/decision_tree_bonds.png>
-Package pdftex.def Info: Figures/decision_tree_bonds.png  used on input line 253.
-(pdftex.def)             Requested size: 300.46277pt x 150.00584pt.
-
-Underfull \hbox (badness 3769) in paragraph at lines 257--261
-\T1/lmr/m/n/10.95 ma-jo-ri-tai-re-ment le tri vers
- []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 257--261
-\T1/lmr/m/n/10.95 le-ment de l'an-crage des ré-
- []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
 
-Underfull \hbox (badness 7522) in paragraph at lines 257--261
-\T1/lmr/m/n/10.95 si-dus de la boucle su-pé-
- []
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
 
-<Figures/coeur_prot.png, id=272, 1289.81876pt x 644.4075pt>
-File: Figures/coeur_prot.png Graphic file (type png)
-<use Figures/coeur_prot.png>
-Package pdftex.def Info: Figures/coeur_prot.png  used on input line 266.
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 241.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+
+Package wrapfig Warning: wrapfigure used inside a conflicting environment on input line 243.
+
+<Figures/coeur_prot_new.png, id=262, 1289.81876pt x 644.4075pt>
+File: Figures/coeur_prot_new.png Graphic file (type png)
+<use Figures/coeur_prot_new.png>
+Package pdftex.def Info: Figures/coeur_prot_new.png  used on input line 255.
 (pdftex.def)             Requested size: 455.24411pt x 227.44374pt.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[12 <./Figures/decision_tree_bonds.png> <./Figures/coeur_prot.png>]
+[8 <./Figures/interactions_heatmap_new.png>]
+Underfull \vbox (badness 1762) has occurred while \output is active []
 
-[13] (./rapportMaster.bbl
 
-[14])
 
-[15]
-<Figures/pw_rmsd_V7_V12.png, id=296, 627.3036pt x 528.0528pt>
+[9 <./Figures/coeur_prot_new.png>]
+
+[10] (./rapportMaster.bbl
+
+[11])
+
+[12]
+<Figures/Maturation_Inhibition.png, id=293, 1539.7525pt x 861.2175pt>
+File: Figures/Maturation_Inhibition.png Graphic file (type png)
+<use Figures/Maturation_Inhibition.png>
+Package pdftex.def Info: Figures/Maturation_Inhibition.png  used on input line 296.
+(pdftex.def)             Requested size: 455.24411pt x 254.62202pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[13 <./Figures/Maturation_Inhibition.png>]
+<Figures/pw_rmsd_V7_V12.png, id=304, 627.3036pt x 528.0528pt>
 File: Figures/pw_rmsd_V7_V12.png Graphic file (type png)
 <use Figures/pw_rmsd_V7_V12.png>
-Package pdftex.def Info: Figures/pw_rmsd_V7_V12.png  used on input line 330.
-(pdftex.def)             Requested size: 300.46277pt x 252.93068pt.
+Package pdftex.def Info: Figures/pw_rmsd_V7_V12.png  used on input line 332.
+(pdftex.def)             Requested size: 318.66948pt x 268.2559pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_25_50_chA.png, id=297, 1651.1286pt x 758.3532pt>
-File: Figures/d_25_50_chA.png Graphic file (type png)
-<use Figures/d_25_50_chA.png>
-Package pdftex.def Info: Figures/d_25_50_chA.png  used on input line 337.
-(pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_25_50_chB.png, id=298, 1651.1286pt x 758.3532pt>
-File: Figures/d_25_50_chB.png Graphic file (type png)
-<use Figures/d_25_50_chB.png>
-Package pdftex.def Info: Figures/d_25_50_chB.png  used on input line 344.
-(pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_25_25.png, id=299, 1651.1286pt x 758.3532pt>
-File: Figures/d_25_25.png Graphic file (type png)
-<use Figures/d_25_25.png>
-Package pdftex.def Info: Figures/d_25_25.png  used on input line 351.
-(pdftex.def)             Requested size: 455.24411pt x 209.08585pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/d_50.png, id=300, 1650.6468pt x 765.5802pt>
-File: Figures/d_50.png Graphic file (type png)
-<use Figures/d_50.png>
-Package pdftex.def Info: Figures/d_50.png  used on input line 358.
-(pdftex.def)             Requested size: 455.24411pt x 211.13681pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/dendrogrammRMSD.png, id=301, 1281.78876pt x 642.4pt>
-File: Figures/dendrogrammRMSD.png Graphic file (type png)
-<use Figures/dendrogrammRMSD.png>
-Package pdftex.def Info: Figures/dendrogrammRMSD.png  used on input line 365.
-(pdftex.def)             Requested size: 455.24411pt x 228.15652pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Figures/dendrogram_jaccard_sim.png, id=302, 1052.9739pt x 503.7219pt>
-File: Figures/dendrogram_jaccard_sim.png Graphic file (type png)
-<use Figures/dendrogram_jaccard_sim.png>
-Package pdftex.def Info: Figures/dendrogram_jaccard_sim.png  used on input line 372.
-(pdftex.def)             Requested size: 455.24411pt x 217.77986pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+[14{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc} <./Figures/pw_rmsd_V7_V12.png>]
+<Figures/d_25_50_chA_new.png, id=315, 1370.11874pt x 331.2375pt>
+File: Figures/d_25_50_chA_new.png Graphic file (type png)
+<use Figures/d_25_50_chA_new.png>
+Package pdftex.def Info: Figures/d_25_50_chA_new.png  used on input line 341.
+(pdftex.def)             Requested size: 455.24411pt x 110.05673pt.
+<Figures/d_25_50_chB_new.png, id=316, 1370.11874pt x 331.2375pt>
+File: Figures/d_25_50_chB_new.png Graphic file (type png)
+<use Figures/d_25_50_chB_new.png>
+Package pdftex.def Info: Figures/d_25_50_chB_new.png  used on input line 348.
+(pdftex.def)             Requested size: 455.24411pt x 110.05673pt.
 
 
+[15 <./Figures/d_25_50_chA_new.png> <./Figures/d_25_50_chB_new.png>]
+<Figures/dendrogram_jaccard_sim_complete_new.png, id=325, 1076.1003pt x 549.252pt>
+File: Figures/dendrogram_jaccard_sim_complete_new.png Graphic file (type png)
+<use Figures/dendrogram_jaccard_sim_complete_new.png>
+Package pdftex.def Info: Figures/dendrogram_jaccard_sim_complete_new.png  used on input line 358.
+(pdftex.def)             Requested size: 455.24411pt x 232.36044pt.
+<Figures/dendrogram_jaccard_sim_new.png, id=326, 1076.1003pt x 547.0839pt>
+File: Figures/dendrogram_jaccard_sim_new.png Graphic file (type png)
+<use Figures/dendrogram_jaccard_sim_new.png>
+Package pdftex.def Info: Figures/dendrogram_jaccard_sim_new.png  used on input line 365.
+(pdftex.def)             Requested size: 455.24411pt x 231.44322pt.
 
-[16{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
 
-[17 <./Figures/pw_rmsd_V7_V12.png> <./Figures/d_25_50_chA.png>]
-
-[18 <./Figures/d_25_50_chB.png> <./Figures/d_25_25.png>]
-
-[19 <./Figures/d_50.png> <./Figures/dendrogrammRMSD.png>]
-
-[20 <./Figures/dendrogram_jaccard_sim.png>] (./rapportMaster.aux)
+[16 <./Figures/dendrogram_jaccard_sim_complete_new.png> <./Figures/dendrogram_jaccard_sim_new.png>] (./rapportMaster.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `rapportMaster.out' has not changed.
-(rerunfilecheck)             Checksum: 9596EBFBC435BCAE5BD7BDA00F22F0F4;5118.
+(rerunfilecheck)             Checksum: E2E312DD75702687D94EFC8DC1532635;4770.
  ) 
 Here is how much of TeX's memory you used:
- 18723 strings out of 473197
- 300873 string characters out of 5718605
- 861594 words of memory out of 5000000
- 41605 multiletter control sequences out of 15000+600000
- 664872 words of font info for 87 fonts, out of 8000000 for 9000
+ 18765 strings out of 473197
+ 302115 string characters out of 5718605
+ 903598 words of memory out of 5000000
+ 41647 multiletter control sequences out of 15000+600000
+ 665853 words of font info for 86 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,19n,93p,1662b,1165s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
-Output written on rapportMaster.pdf (20 pages, 6709300 bytes).
+ 90i,18n,93p,1629b,1542s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx8.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr7.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt9.pfb>
+Output written on rapportMaster.pdf (18 pages, 4264469 bytes).
 PDF statistics:
  441 PDF objects out of 1000 (max. 8388607)
- 343 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 344 compressed objects within 4 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 254 words of extra memory for PDF output out of 10000 (max. 10000000)
 
