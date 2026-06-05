@@ -13,16 +13,16 @@
 
 %---- Spacing around titles
 \renewcommand\section{\@startsection {section}{1}{\z@}%
-	{-5.0ex \@plus -1ex \@minus -.2ex}%  before skip
-	{1.3ex \@plus.2ex}% after skip
+	{-2.5ex \@plus -0.5ex \@minus -.2ex}%  before skip
+	{0.8ex \@plus.2ex}% after skip
 	{\normalfont\Large\bfseries}}
 \renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
-	{-3.0ex\@plus -1ex \@minus -.2ex}% 
-	{0.5ex \@plus .2ex}%
+	{-1.5ex\@plus -0.5ex \@minus -.2ex}% 
+	{0.3ex \@plus .2ex}%
 	{\normalfont\large\bfseries}}
 \renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
-	{-2.0ex\@plus -1ex \@minus -.2ex}% 
-	{0.3ex \@plus .2ex}%
+	{-1.0ex\@plus -0.5ex \@minus -.2ex}% 
+	{0.2ex \@plus .2ex}%
 	{\normalfont\normalsize\bfseries}}
 
 %---- Table of Contents and sectioning depth
@@ -55,7 +55,7 @@ urlcolor=blue]{hyperref}
 \RequirePackage{lineno}
 \RequirePackage[a4paper,margin=2.5cm]{geometry}
 
-\parskip 5em plus1pt minus1pt
+\parskip 3em plus1pt minus1pt
 \parindent 5em
 
 %---- Bibliography: bibtex/natbib only (compatible with \bibliographystyle + \bibliography)
@@ -101,12 +101,18 @@ urlcolor=blue]{hyperref}
 
 %---- Title page defaults
 \def\author{Anna Perova}
+\def\studentnumber{}
+\def\candidateaddress{}
+\def\candidatephone{}
 \def\title{La dynamique de la protease VIH-2 (PR2): \\[5mm] Rapport de Stage M1 }
 \def\shorttitle{Rapport de stage}
 \def\unit{BFA CNRS UMR 8251 - \\ INSERM ERL 1133}
+\def\labname{\unit}
 \def\team{Profilage Pharmacologique In Silico (IsPP)}
 \def\spe{Modélisation des macromolécules}
 \def\supervisor{L. Regad \& M. Baillif}
+\def\scientificmanager{L. Regad \& M. Baillif}
+\def\labaddress{}
 \def\mydate{\today}
 \def\keywords{Sciences de la Terre, master, rapport, conseils}
 
@@ -124,12 +130,20 @@ urlcolor=blue]{hyperref}
 	\stepcounter{lastyear}
 }
 
-\newcommand{\yearlabel}{Année Universitaire }
+\newcommand{\yearlabel}{Année Universitaire : }
+\newcommand{\candnameilabel}{Nom du candidat : }
 \newcommand{\unitlabel}{Unité de Recherche : }
 \newcommand{\teamslabel}{\'{E}quipe(s) : }
 \newcommand{\suplabel}{Encadrant(s) : }
-\newcommand{\abstractlabel}{Résumé}
-\newcommand{\keyslabel}{Mots clés : }
+\newcommand{\labnlabel}{Laboratoire : }
+\newcommand{\candaddrlabel}{Adresse du candidat : }
+\newcommand{\candphonelabel}{Téléphone du candidat : }
+\newcommand{\scimanagerlabel}{Responsable Scientifique : }
+\newcommand{\labaddrlabel}{Adresse du laboratoire : }
+\newcommand{\abstractlabel}{Abstract}
+\newcommand{\resumelabel}{Résumé}
+\newcommand{\keyslabel}{Keywords: }
+\newcommand{\motsclelabel}{Mots clés : }
 
 %---- French/English
 \RequirePackage[english,french]{babel}
@@ -139,41 +153,53 @@ urlcolor=blue]{hyperref}
 \newcommand{\Entete}{
 	
 	\IfLanguagePatterns{english}{
-		\renewcommand{\yearlabel}{Academic Year }
+		\renewcommand{\yearlabel}{Academic Year: }
+		\renewcommand{\candnameilabel}{Candidate Name: }
 		\renewcommand{\unitlabel}{Research Unit: }
 		\renewcommand{\teamslabel}{Team(s): }
 		\renewcommand{\suplabel}{Supervisor(s): }
+		\renewcommand{\labnlabel}{Laboratory: }
+		\renewcommand{\candaddrlabel}{Candidate Address: }
+		\renewcommand{\candphonelabel}{Candidate Phone: }
+		\renewcommand{\scimanagerlabel}{Scientific Manager: }
+		\renewcommand{\labaddrlabel}{Laboratory Address: }
 		\renewcommand{\abstractlabel}{Abstract}
+		\renewcommand{\resumelabel}{Summary}
 		\renewcommand{\keyslabel}{Keywords: }
+		\renewcommand{\motsclelabel}{Keywords: }
 	}{}
 	
+	\thispagestyle{empty}
 	\vspace*{-2cm}
 	
 	\begin{minipage}{0.6\linewidth}
-		\yearlabel \thefirstyear\, -- \thelastyear\\
-		\unitlabel  \unit\\
-		\teamslabel \team\\
-		\suplabel  \supervisor\\
+		{\small\setlength{\baselineskip}{1.2\baselineskip}
+		\candnameilabel \author \ifx\studentnumber\empty\else { (\studentnumber)}\fi \\[0.15cm]
+		\yearlabel \thefirstyear\, -- \thelastyear \\[0.2cm]
+		\candaddrlabel \candidateaddress \\[0.05cm]
+		\candphonelabel \candidatephone \\[0.2cm]
+		\labnlabel \labname \\[0.05cm]
+		\labaddrlabel \labaddress \\[0.05cm]
+		\scimanagerlabel \scientificmanager
+		}
 	\end{minipage}
 	\hfill
-	\medskip
 	\begin{minipage}{0.30\linewidth}
 		\includegraphics[width=\linewidth]{Logo/logoUPC.png}\\[2mm]
 		\includegraphics[width=\linewidth]{Logo/mymaster.png}\\[2mm]
 		\hspace*{\fill}{\sc \spe}\hspace*{1.5mm}\\[0.2cm]
 	\end{minipage}
-	\smallskip
+	
+	\vspace{1cm}
 	{\parskip 3pt
 		\begin{center}
 			\hrule
-			\vspace*{1mm}
-			{\huge\bfseries \title}\\[5mm]
+			\vspace*{0.5cm}
+			{\huge\bfseries \title}\\[0.5cm]
 			\hrule
-			\vspace*{4mm}
-			{\Large\bfseries \author}\\[3mm]
-			\mydate
 		\end{center}
-}}
+	}
+}
 
 %---- Headers and footers
 \RequirePackage{fancyhdr}
@@ -189,14 +215,9 @@ urlcolor=blue]{hyperref}
 \renewenvironment{abstract}
 {
 	\thispagestyle{empty}
-	\begin{center}
-		{\bfseries \abstractlabel}
-	\end{center}
 	\small
 }
 {
-	\par
-	{\bfseries \keyslabel} \keywords
 	\par}
 
 
@@ -204,6 +225,10 @@ urlcolor=blue]{hyperref}
 %---- Custom captions (Figure X -- caption style)
 
 \captionsetup{font=small}
+\captionsetup{belowskip=3pt,aboveskip=3pt}
+
+\setlength{\textfloatsep}{2pt}
+\setlength{\floatsep}{2pt}
 
 \long\def\@caption#1[#2]#3{\par\addcontentsline{\csname
 		ext@#1\endcsname}{#1}{\protect\numberline{\csname

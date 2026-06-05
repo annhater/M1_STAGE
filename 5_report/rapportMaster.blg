@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (TeX Live 2025/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: rapportMaster.aux
+The style file: unsrt.bst
+Database file #1: masterBib.bib
+Warning--entry type for "noauthor_global_nodate" isn't style-file defined
+--line 3 of file masterBib.bib
+Warning--entry type for "baillif_2026_18495249" isn't style-file defined
+--line 230 of file masterBib.bib
+Warning--empty journal in williams_geographic_2023
+Warning--empty year in williams_geographic_2023
+Warning--empty journal in van_der_loeff_epidemiology_2008
+Warning--empty year in van_der_loeff_epidemiology_2008
+Warning--empty note in PyMOL
+You've used 23 entries,
+            1791 wiz_defined-function locations,
+            594 strings with 9616 characters,
+and the built_in function-call counts, 5967 in all, are:
+= -- 463
+> -- 405
+< -- 1
++ -- 144
+- -- 121
+* -- 536
+:= -- 993
+add.period$ -- 65
+call.type$ -- 23
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 193
+empty$ -- 507
+format.name$ -- 121
+if$ -- 1235
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 18
+newline$ -- 115
+num.names$ -- 22
+pop$ -- 56
+preamble$ -- 2
+purify$ -- 0
+quote$ -- 0
+skip$ -- 89
+stack$ -- 0
+substring$ -- 435
+swap$ -- 29
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 5
+while$ -- 53
+width$ -- 25
+write$ -- 236
+(There were 7 warnings)

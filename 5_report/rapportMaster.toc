@@ -1,0 +1,28 @@
+\babel@toc {french}{}\relax 
+\babel@toc {french}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Matériels \& Méthodes}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Simulations de Dynamique Moléculaire}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Métriques d'Analyse Structurale}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}$\text {RMSD}_{\text {stepwise}}$}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}RMSF}{3}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Distances inter-résidus}{3}{subsubsection.2.2.3}%
+\contentsline {subsubsection}{\numberline {2.2.4}Projection de résidu 50 de la chaîne B sur le plan défini par les résidus 49, 50, et 51 de la chaîne A}{4}{subsubsection.2.2.4}%
+\contentsline {subsubsection}{\numberline {2.2.5}Classification des structures extraites de V7 et V12}{4}{subsubsection.2.2.5}%
+\contentsline {section}{\numberline {3}Résultats}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Étude de la stabilité de la PR2 selon l'état de protonation}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Étude de flexibilité de la PR2 selon l'état de protonation}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Étude de la conformation des \textit {flaps} selon l'état de protonation}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Étude de la conformation du site catalytique selon l'état de protonation}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Classification hiérarchique de structures de V7 et V12}{9}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Discussion \& Conclusions}{10}{section.4}%
+\contentsline {section}{\numberline {5}Remerciements}{10}{section.5}%
+\contentsline {section}{Références}{11}{section.5}%
+\contentsline {section}{\numberline {A}Annexes}{13}{appendix.A}%
+\contentsline {subsection}{\numberline {A.1}Figures additionnelles, Pt. 1}{13}{subsection.A.1}%
+\contentsline {subsection}{\numberline {A.2}Protocole de simulations de dynamique moléculaire (DM)}{13}{subsection.A.2}%
+\contentsline {subsection}{\numberline {A.3}Formule de RMSD}{14}{subsection.A.3}%
+\contentsline {subsection}{\numberline {A.4}Formule de RMSF}{14}{subsection.A.4}%
+\contentsline {subsection}{\numberline {A.5}Figures additionnelles, Pt. 2.2.5}{14}{subsection.A.5}%
+\contentsline {subsection}{\numberline {A.6}Figures additionnelles, Pt. 3.4}{15}{subsection.A.6}%
+\contentsline {subsection}{\numberline {A.7}Figures additionnelles, Pt. 3.5}{16}{subsection.A.7}%
