@@ -2,7 +2,7 @@
 #1. Import all simulation files
 #2. Define function for each angle (psi, phi,)
 #3. Assemble all into df with frame/angles, and then into csv file
-#4. Create line graph for each simulation for each angle (unite all angles on one graph, indicate angles with colors)
+#4. Create line graph for each simulation for each angle
 
 #IMPORTS
 import os

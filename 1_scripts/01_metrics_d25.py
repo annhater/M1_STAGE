@@ -7,6 +7,7 @@
     #d_25-50(chain B): distance_df["50_149"]
 # The calculated values are used to create plots with matplotlib, and generate statistics csv file
 
+# More up-to-date version of figures for d_25 and d_25-50 can be found in the 01_metrics_d25.ipynb and 02_metrics_d50-50.ipynb notebooks. 
 
 
 #IMPORTS
@@ -24,7 +25,7 @@ os.chdir(rootdir)
 
 # a. Distance (d_25) calculation
 def cal_d_25 (distance_df):
-    d_25 = distance_df["25_"]
+    d_25 = distance_df["25_124"]
     return d_25
 
 #MAIN
@@ -89,7 +90,7 @@ for i, distance_file in enumerate(distance_files_paths):
     ax.set_xlabel('step')
     ax.set_ylabel('d_25')
     ax.grid(True, alpha=0.3) # Add a grid to the plot
-    ax.set_ylim(10,30)
+    #ax.set_ylim(10,30)
     plot_idx += 1
 
 

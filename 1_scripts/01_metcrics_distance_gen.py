@@ -1,9 +1,9 @@
 # Generalised Code for Target Residue Environment Analysis ()
-# Change `RES` and `RESNUM` in the *Configuration* cell to run the analysis on any residue.
-# Uses **MDAnalysis** to find all atoms within 5 Å of the target residue's Cα
-# Computes per-atom **appearance frequency** (% of frames) across each simulation
+# Change `RES` and `RESNUM` in the Configuration part to run the analysis on any residue.
+# UsesMDAnalysis to find all atoms within 5 Å of the target residue's Cα
+# Computes per-atom appearance frequency (% of frames) across each simulation
 # Saves environment and frequency tables to CSV
-# Builds a **seaborn heatmap** of interaction frequencies
+# Builds a seaborn heatmap of interaction frequencies
 
 # Needed library: MDAnalysis
 
@@ -23,6 +23,7 @@ RESNUM = 25      # Residue number in the topology
 
 # ── Atom-index threshold separating chain A from chain B ────────────────────
 CHAIN_BOUNDARY = 1536   # atom indices 0..1535 → chain A; 1536+ → chain B
+# change according to your system's topology if needed
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 ROOTDIR    = '/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/simulations_1HSI/'

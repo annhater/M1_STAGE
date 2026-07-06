@@ -13,7 +13,7 @@ import MDAnalysis as mda
 from MDAnalysis.analysis import rms, align
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as df
+import pandas as pd
 
 # SETUP
 # set working dir
@@ -127,7 +127,7 @@ num_rows_plot = (num_simulations + num_cols_plot - 1) // num_cols_plot
 
 fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
 axes = axes.flatten()
-fig.suptitle("Analyse RMSD: ", fontsize=22, y=0.92)
+fig.suptitle("Analyse RMSD (Comparaison à la structure 'moyenne'), sans mise à l'échelle", fontsize=22, y=0.92)
 plot_idx = 0
 line_c1 = None
 line_c2 = None
@@ -197,7 +197,7 @@ num_rows_plot = (num_simulations + num_cols_plot - 1) // num_cols_plot
 
 fig, axes = plt.subplots(num_rows_plot, num_cols_plot, figsize=(num_cols_plot * 8, num_rows_plot * 6), squeeze=False)
 axes = axes.flatten()
-fig.suptitle("Average RMSD: Comparison of each frame to the average of the structure", fontsize=22)
+fig.suptitle("Analyse RMSD (Comparaison à la structure 'moyenne'),avec mise à l'échelle", fontsize=22)
 plot_idx = 0
 line_c1 = None
 line_c2 = None
