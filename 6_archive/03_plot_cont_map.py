@@ -6,19 +6,19 @@
 import numpy
 import numpy.linalg
 import MDAnalysis
-import MDAnalysis.core.distances
+import MDAnalysis.core.distance
 from numpy import *
 
 
 #load trajectory
-u = MDAnalysis.Universe("simulations_1HSI_APO_MP/V7/V7.gro", "simulations_1HSI_APO_MP/V7/md_V7.xtc")
+u = MDAnalysis.Universe("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/simulations_1HSI/simulations_1HSI_APO_MP/V7/V7.gro", "/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Data/simulations_1HSI/simulations_1HSI_APO_MP/V7/md_V7.xtc")
 timestep = 1
 n_frames = len(u.trajectory)-1
 start = 1
 
 #select the regions to be measured against eachother from the trajecotry
-chain1 = u.select_atoms('* and name CA')
-chain2 = u.select_atoms('* and name CA')
+chain1 = u.select_atoms('name CA')
+chain2 = u.select_atoms('name CA')
 
 #determine dimensions of matrix
 n1 = len(chain1)

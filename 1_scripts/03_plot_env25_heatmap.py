@@ -26,13 +26,13 @@ all_unique_atom_identifiers = set()
 
 # 1.1. Open frequency tables, read as df
 freq_df_paths = [
-    "V1_ASP_env_atoms_frequency.csv",
-    "V11__env_atoms_frequency.csv",
-    "V12_ILE_env_atoms_frequency.csv",
-    "V7_ILE_env_atoms_frequency.csv"
+    "V1_ASP_chA_env_atoms_frequency.csv",
+    "V11_ASP_chA_env_atoms_frequency.csv",
+    "V12_ASP_chA_env_atoms_frequency.csv",
+    "V7_ASP_chA_env_atoms_frequency.csv"
 ]
 for sim in freq_df_paths:
-    sim_name = sim.replace("_ILE_env_atoms_frequency.csv", "")
+    sim_name = sim.replace("_ASP_chA_env_atoms_frequency.csv", "")
     df_sim = pd.read_csv(sim)
 
     # 1.2. Filter only alpha carbons (and that are not Asp25 alpha carbon)
@@ -174,7 +174,7 @@ sns.heatmap(heatmap_data.T, # Transpose the DataFrame to swap axes
             cbar_kws={'label': 'Frequency (%)'}
             )
 
-plt.title("Frequency of Interactions with Ile50 (chain B)", fontsize=16, y=1.05, x=0.66)
+plt.title("Frequency of Interactions with Ile50 (chain A)", fontsize=16, y=1.05, x=0.66)
 plt.xlabel("Simulation", fontsize=12) # Swapped x-axis label
 plt.ylabel("Residue (within 5A)", fontsize=12) # Swapped y-axis label
 
@@ -188,4 +188,4 @@ plt.yticks(ticks=[x + 0.5 for x in range(len(formatted_y_labels))], labels=forma
 plt.xticks(ticks=[x + 0.5 for x in range(len(simulation_names))], labels=simulation_names, rotation=45, fontsize=15) # Apply to x-axis, using simulation_names
 #plt.tight_layout() # Adjust layout to prevent labels from overlapping
 plt.show()
-fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/env_50_chB_heatmap.png", bbox_inches='tight', dpi=300)
+fig.savefig("/home/sdv/m1isdd/aperova/Documents/M1_STAGE/Manips/Figures/env_50_chA_heatmap.png", bbox_inches='tight', dpi=300)

@@ -75,7 +75,7 @@ for sim in freq_df_paths:
 #2. Create heatmap
 
 fig = plt.figure(figsize=(20, 15))
-sns.heatmap(freq_percent, 
+sns.heatmap(all_results, 
             #annot=True,       # Shows the % values in the boxes
             #fmt=".1f",        # 1 decimal point
             cmap="RdYlGn",
