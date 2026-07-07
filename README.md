@@ -24,7 +24,7 @@ The present codes allow calculating the following metrics needed to study PR2 in
 - Flexible regions of the structure were defined using **RMSF** with `01_metrics_RMSF.py` or `01_metrics_RMSF.ipynb`.
 - Changes in the phi and psi angles over the course of the simulation were analysed with `02_analysis_angles.py`.
 - Pairwise RMSD and in.py`.
-- The projection-based metric **d<sub>50B -> 49A, 50A, 51A</sub>**, used to describe the positioning of flap A over B, is analysed in `02_analysis_teraction comparisons between simulations were carried out in `02_analysis_pw_RMSD.ipynb` and `02_analysis_pw_interactions.ipynb`.
+- The projection-based metric **d<sub>50B -> 49A, 50A, 51A</sub>**, used to describe the positioning of flap A over B, is analysed in `02_analysis_teraction` comparisons between simulations were carried out in `02_analysis_pw_RMSD.ipynb` and `02_analysis_pw_interactions.ipynb`.
 
 Additionally, the interactions between the residues of interest were studied with notebooks and scripts dedicated to hydrogen bonds, environment analysis, contact maps, and visualisations.
 
