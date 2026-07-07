@@ -2,11 +2,10 @@
 
 > All codes created during internship at  IsPP BFA INSERM - CNRS UMR 825, under superision of Dr. Leslie Regad & Marine Baillif at Université Paris Cité from Apr to July of 2026. Topic of the internship: Dynamics of HIV-2 protease (PR2).
 
-![GitHub](https://img.shields.io/badge/GitHub-annhater/M1_STAGE-black?logo=github) ![Build Status](https://img.shields.io/github/actions/workflow/status/annhater/M1_STAGE/ci.yml?branch=main)
-
+![GitHub](https://img.shields.io/badge/GitHub-annhater/M1_STAGE-black?logo=github)
 ## 📋 Table of Contents
 
-- [Features](#features)
+- [General](#general)
 - [Repository contents](#repository-contents)
 
 ## ℹ️ Project Information
