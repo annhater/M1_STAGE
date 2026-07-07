@@ -11,10 +11,10 @@
 
 ## ℹ️ Project Information
 
-- **👤 Author:** annhater
+- **👤 Author:** Anna Perova
 - **📂 Repository:** [https://github.com/annhater/M1_STAGE](https://github.com/annhater/M1_STAGE)
 
-## Features
+## General
 
 The present codes allow calculating the following metrics needed to study PR2 interactions:
 - For active site stability, check **d<sub>25</sub>** and the codes `01_metrics_d25.py` or `01_metrics_d25.ipynb`.
